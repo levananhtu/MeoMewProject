@@ -52,7 +52,7 @@
 
         @include('layouts.header2')
 
-        @include('layouts.leftSideNav2')
+        @include('layouts.leftSideNav3')
 
         <div class="content-wrapper">
           <!-- Container-fluid starts -->

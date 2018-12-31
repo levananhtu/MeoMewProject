@@ -20,7 +20,7 @@ Route::get('/', function () {
 });
 
 Route::get('thu', function(){
-  return view('Admin.DanhSachNguoiDung');
+  return view('Admin.ThemUser');
 });
 
 Route::get('thu2', function(){
@@ -39,6 +39,10 @@ Route::get('DangNhap', function(){
 Route::get('user/danhsach', function(){
   return view('Admin.DanhSachNguoiDung');
 }) -> name('DanhSachNguoiDung');
+
+Route::get('user/idUser', function(){
+  return view('Admin.User');
+}) -> name('User');
 
 // Page Truyen
 Route::get('truyen/danhsach', function(){
@@ -59,7 +63,7 @@ Route::get('dichgia/danhsach', function(){
 }) -> name('DanhSachDichGia');
 
 Route::get('dichgia/idDichGia', function(){
-  return view('pages.DichGia');
+  return view('Admin.DichGia');
 }) -> name('DichGia');
 
 //Page Tac Gia

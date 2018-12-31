@@ -64,11 +64,11 @@
   <div class="container-fluid">
     <div class="row">
       <div class="main-header">
-        <h4>Profile</h4>
+        <h4>User</h4>
         <ol class="breadcrumb breadcrumb-title breadcrumb-arrow">
           <li class="breadcrumb-item"><a href="/"><i class="icofont icofont-home"></i></a>
           </li>
-          <li class="breadcrumb-item"><a href="#!">Dịch Giả</a>
+          <li class="breadcrumb-item"><a href="#!">User</a>
           </li>
           <li class="breadcrumb-item"><a href="profile.html">Profile</a>
           </li>
@@ -88,7 +88,7 @@
           </div>
           <div class="card-block">
             <h4 class="f-18 f-normal m-b-10 txt-primary">MeoMew Team</h4>
-            <h5 class="f-14">Về dịch giả</h5>
+            <h5 class="f-14">Về user</h5>
             <p class="m-b-15">Lorem ipsum dolor sit amet, consectet
               ur adipisicing elit</p>
               <ul>
@@ -185,7 +185,7 @@
                   <div class="slide"></div>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" data-toggle="tab" href="#project" role="tab">Truyện</a>
+                  <a class="nav-link" data-toggle="tab" href="#project" role="tab">Truyện Yêu Thích</a>
                   <div class="slide"></div>
                 </li>
                 <li class="nav-item">
@@ -319,46 +319,6 @@
                 </div>
                 <!-- end of row of Description  -->
 
-                <div class="row">
-                  <div class="col-lg-12">
-                    <div class="card">
-                      <div class="card-header"><h5 class="card-header-text">Tiến Độ</h5></div>
-                      <div class="card-block">
-                        <div class="row">
-                          <div class="col-md-4 faq-chart">
-                            <div class="chart" data-percent="75" data-barColor="#5cb85c" data-trackColor="#fff" data-lineWidth="5" data-barSize="150">
-                              <div class="chart-percent"><span></span>%</div>
-                            </div>
-                            <!-- end of creativity chart -->
-                            <h5>Đang tiến hành</h5>
-                          </div>
-                          <!-- end of col-lg-3 creativity chart -->
-                          <div class="col-md-4 faq-chart">
-                            <div class="chart" data-percent="90" data-barColor="#c9302c" data-trackColor="#fff" data-lineWidth="5" data-barSize="150">
-                              <div class="chart-percent"><span></span>%</div>
-                            </div>
-                            <!-- end of social media chart -->
-                            <h5>Tạm ngưng</h5>
-                          </div>
-                          <!-- end of col-lg-3 social media chart -->
-                          <div class="col-md-4 faq-chart">
-                            <div class="chart" data-percent="83" data-barColor="#ec971f" data-trackColor="#fff" data-lineWidth="5" data-barSize="150">
-                              <div class="chart-percent"><span></span>%</div>
-                            </div>
-                            <!-- end of marketing chart -->
-                            <h5>Đã hoàn thành</h5>
-                          </div>
-                          <!-- end of col-lg-3 marketing chart -->
-                        </div>
-                        <!-- end of row -->
-                      </div>
-                      <!-- end of card block -->
-                    </div>
-                    <!-- end of card -->
-                  </div>
-                  <!-- end of col-lg-12 -->
-                </div>
-                <!-- end of row -->
               </div>
               <!-- end of tab-pane -->
               <!-- end of about us tab-pane -->

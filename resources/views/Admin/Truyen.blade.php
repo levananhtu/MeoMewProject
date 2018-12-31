@@ -56,7 +56,7 @@
 </head>
 @include('layouts.header2')
 
-@include('layouts.leftSideNav2')
+@include('layouts.leftSideNav3')
     <div class="content-wrapper">
         <!-- Container-fluid starts -->
         <div class="container-fluid">
@@ -734,6 +734,7 @@
             </div>
         </div>
         <!-- Container-fluid ends -->
+        @include('layouts.footer-center')
     </div>
 </div>
 
