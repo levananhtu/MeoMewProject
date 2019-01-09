@@ -20,7 +20,7 @@ Route::get('/', function () {
 });
 
 Route::get('thu', function(){
-  return view('pages.DichGia');
+  return view('Admin.ThemUser');
 });
 
 Route::get('thu2', function(){

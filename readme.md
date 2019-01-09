@@ -13,7 +13,7 @@ Cho phép người dùng xem truyện và các thông tin về truyện, tác gi
 - Xem thông tin truyện
 - Xem danh sách các truyện
 - Xem các truyện mới cập nhật
-- Xem các truyện nổi bật
+- Xem các truyện nổi bật (Theo Rating)
 - Xem thông tin về tác giả
 - Xem danh sách các tác giả
 - Xem thông tin về dịch giả
@@ -28,8 +28,8 @@ Cho phép người dùng xem truyện và các thông tin về truyện, tác gi
 ## Các chức năng sắp tới
 
 - Thêm bình luận
-- Follow Tác giả
-- Message cho người dùng / nhóm Dịch
+- Follow Tác giả, Nhóm Dịch
+- Message cho người dùng / Nhóm Dịch
 - Rating
 - Thêm truyện vào danh sách ưa thích
 
@@ -53,8 +53,10 @@ Cho phép người dùng xem truyện và các thông tin về truyện, tác gi
 ### Laravel
 - https://laravel.com/docs/5.7/installation
 
-### Able Pro
+### Able Pro & Bootstrap 4
 - http://ableproadmin.com/doc-7.0/
+- https://getbootstrap.com/docs/4.2/getting-started/introduction/
+- https://www.w3schools.com/
 
 ### Unit Test
 - https://techmaster.vn/posts/33618/unit-test-dung-de-lam-gi-va-kinh-nghiem-viet-unit-test-tot-nhat

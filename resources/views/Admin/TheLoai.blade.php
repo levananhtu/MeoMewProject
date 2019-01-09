@@ -53,7 +53,7 @@
     <!--color css-->
     <link rel="stylesheet" type="text/css" href="assets/css/color/inverse.css" id="color"/>
 </head>
-@include('layouts.header2')
+@include('layouts.AdminHeader')
 @include('layouts.leftSideNav3')
     <div class="content-wrapper">
         <!-- Container-fluid starts -->

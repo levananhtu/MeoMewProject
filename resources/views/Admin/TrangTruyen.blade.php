@@ -50,7 +50,7 @@
 
 </head>
 
-        @include('layouts.header2')
+        @include('layouts.AdminHeader')
 
         @include('layouts.leftSideNav3')
 

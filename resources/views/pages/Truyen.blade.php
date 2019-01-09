@@ -54,9 +54,9 @@
 
 
 </head>
-@include('layouts.header2')
+@include('layouts.PageHeader')
 
-@include('layouts.leftSideNav2')
+@include('layouts.AdminLeftSideNav')
     <div class="content-wrapper">
         <!-- Container-fluid starts -->
         <div class="container-fluid">
@@ -132,7 +132,7 @@
                                                         <i class="icofont icofont-love"></i><span class="m-l-10">Yêu Thích</span>
                                                     </button>
                                                     <button type="button" class="btn btn-inverse-primary waves-effect waves-light">
-                                                        <i class="icofont icofont-eye-alt f-16"></i>
+                                                        <a href="{{ URL::route('TrangTruyen') }}"><i class="icofont icofont-eye-alt f-16"></i></a>
                                                     </button>
                                                 </div>
                                             </div>

@@ -55,7 +55,7 @@
   <link rel="stylesheet" type="text/css" href="assets/css/color/inverse.css" id="color"/>
 
 </head>
-@include('layouts.header2')
+@include('layouts.header')
 
 @include('layouts.leftSideNav3')
 

@@ -54,7 +54,7 @@
 
 
 </head>
-@include('layouts.header2')
+@include('layouts.AdminHeader')
 
 @include('layouts.leftSideNav3')
     <div class="content-wrapper">
@@ -132,7 +132,7 @@
                                                         <i class="icofont icofont-love"></i><span class="m-l-10">Yêu Thích</span>
                                                     </button>
                                                     <button type="button" class="btn btn-inverse-primary waves-effect waves-light">
-                                                        <i class="icofont icofont-eye-alt f-16"></i>
+                                                        <a href="{{ URL::route('TrangTruyen') }}"><i class="icofont icofont-eye-alt f-16"></i></a>
                                                     </button>
                                                 </div>
                                             </div>
@@ -731,10 +731,10 @@
                     </div>
                 </div>
 
+                @include('layouts.footer-center')
             </div>
         </div>
         <!-- Container-fluid ends -->
-        @include('layouts.footer-center')
     </div>
 </div>
 

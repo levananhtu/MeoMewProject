@@ -51,9 +51,9 @@
   <link rel="stylesheet" type="text/css" href="assets/css/color/inverse.css" id="color"/>
 
 </head>
-      @include('layouts.header2')
+      @include('layouts.PageHeader')
 
-      @include('layouts.leftSideNav2')
+      @include('layouts.AdminLeftSideNav')
 
       <div class="content-wrapper">
         <!-- Container-fluid starts -->
@@ -123,51 +123,6 @@
                   </div>
                 </div>
                 <!-- end of card-block -->
-                <div class="card">
-                  <div class="card-header"><h5 class="card-header-text">Technical Skill</h5></div>
-                  <div class="card-block">
-                    <div class="technical-skill">
-                      <h6>Photoshop</h6>
-                      <div class="faq-progress">
-                        <div class="progress">
-                          <span class="faq-text1"></span>
-                          <div class="faq-bar1"></div>
-                        </div>
-                      </div>
-                      <h6>Illustrator</h6>
-                      <div class="faq-progress">
-                        <div class="progress">
-                          <span class="faq-text2"></span>
-                          <div class="faq-bar2"></div>
-                        </div>
-                      </div>
-                      <h6>PHP</h6>
-                      <div class="faq-progress">
-                        <div class="progress">
-                          <span class="faq-text3"></span>
-                          <div class="faq-bar3"></div>
-                        </div>
-                      </div>
-                      <h6>Javascript</h6>
-                      <div class="faq-progress">
-                        <div class="progress">
-                          <span class="faq-text4"></span>
-                          <div class="faq-bar4"></div>
-                        </div>
-                      </div>
-                      <h6>Communication</h6>
-                      <div class="faq-progress">
-                        <div class="progress">
-                          <span class="faq-text5"></span>
-                          <div class="faq-bar5"></div>
-                        </div>
-                      </div>
-                    </div>
-                    <!-- end of technical skill -->
-                  </div>
-                  <!-- end of card-block -->
-                </div>
-                <!-- end of card -->
               </div>
               <!-- end of col-lg-3 -->
 
@@ -192,9 +147,6 @@
                   <div class="tab-pane active" id="personal" role="tabpanel">
                     <div class="card">
                       <div class="card-header"><h5 class="card-header-text">About Me</h5>
-                        <button id="edit-btn" type="button" class="btn btn-primary waves-effect waves-light f-right" >
-                          <i  class="icofont icofont-edit"></i>
-                        </button>
                       </div>
                       <div class="card-block">
                         <div class="view-info">
@@ -465,21 +417,18 @@
                         <!-- Description card start -->
                         <div class="card">
                             <div class="card-header">
-                                <h5 class=" d-inline-block">Description</h5>
+                                <h5 class=" d-inline-block">Mô Tả</h5>
                                 <div class="card-header-right f-right">
                                 </div>
                             </div>
                             <div class="card-block">
                                 <div class="media p-t-10 m-b-20 ">
-                                    <a class="mr-3" href="#">
-                                        <img class="media-object m-r-10" src="assets/images/logo-blue.png" alt="Generic placeholder image">
-                                    </a>
                                     <div class="media-body">
                                         <div class="row">
                                             <div class="col-md-12">
                                                 <div class="company-name">
                                                     <p>MeoMew Team</p>
-                                                    <span class="text-muted">14 February, 2017</span>
+                                                    <span class="text-muted">Since 14 February, 2017</span>
                                                 </div>
                                             </div>
                                         </div>

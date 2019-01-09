@@ -1,4 +1,53 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Web Truyện Tranh - MeoMew Team</title>
+  <!-- HTML5 Shim and Respond.js IE9 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+
+  <!-- Meta -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="description" content="Phoenixcoded">
+  <meta name="keywords"
+  content=", Responsive, Landing, Bootstrap, App, Template, Mobile, iOS, Android, apple, creative app">
+  <meta name="author" content="Phoenixcoded">
+
+  <!-- Favicon icon -->
+  <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+  <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+
+  <!-- Google font-->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+
+  <!-- iconfont -->
+  <link rel="stylesheet" type="text/css" href="assets/icon/icofont/css/icofont.css">
+
+  <!-- simple line icon -->
+  <link rel="stylesheet" type="text/css" href="assets/icon/simple-line-icons/css/simple-line-icons.css">
+
+  <!-- Required Fremwork -->
+  <link rel="stylesheet" type="text/css" href="../bower_components/bootstrap/css/bootstrap.min.css">
+
+  <!-- animation css -->
+  <link rel="stylesheet" type="text/css" href="../bower_components/animate.css/css/animate.css">
+
+  <!-- Style.css -->
+  <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+
+  <!-- Responsive.css-->
+  <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+
+  <!--color css-->
+  <link rel="stylesheet" type="text/css" href="assets/css/color/inverse.css" id="color"/>
+
+</head>
 <body class="sidebar-mini sidebar-fixed header-fixed">
   <div class="wrapper">
     <div class="loader-bg">
@@ -10,7 +59,7 @@
     <header class="main-header-top hidden-print">
       <a href="index.html" class="logo"><img class="img-fluid able-logo" src="assets/images/logo.png" alt="Theme-logo"></a>
       <nav class="navbar navbar-static-top">
-        <!-- Sidebar toggle button--><a href="#!" class="sidebar-toggle"></a>
+        <!-- Sidebar toggle button--><a href="#!" data-toggle="offcanvas" class="sidebar-toggle"></a>
         <!-- Navbar Right Menu-->
         <div class="navbar-custom-menu">
           <ul class="top-nav">
@@ -27,7 +76,7 @@
                 <span class="badge badge-danger header-badge">3</span>
               </a>
               <ul class="dropdown-menu">
-                <li class="not-head">Bạn có <b class="text-primary">3</b> tin mới.</li>
+                <li class="not-head">Có <b class="text-primary">3</b> truyện mới cập nhật.</li>
                 <li class="bell-notification">
                   <a href="javascript:;" class="media">
                     <span class="mr-3 media-icon">
@@ -49,11 +98,10 @@
                       <div class="media-body"><span class="block">Sanctuary Chương 47</span><span class="text-muted block-time">3 hours ago</span></div></a>
                     </li>
                     <li class="not-footer">
-                      <a href="#!">See all notifications.</a>
+                      <a href="{{ URL::route('DanhSachTruyen') }}">Xem tất cả truyện mới.</a>
                     </li>
                   </ul>
                 </li>
-
                 <!-- window screen -->
                 <li class="pc-rheader-submenu">
                   <a href="#!" class="drop icon-circle" onclick="javascript:toggleFullScreen()">
@@ -61,10 +109,22 @@
                   </a>
 
                 </li>
+                <!-- User Menu-->
+                <li class="dropdown">
+                  <a href="#!" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle drop icon-circle drop-image">
+                    <span><img class="rounded-circle" src="assets/images/avatar-1.png" style="width:40px;" alt="User Image"></span>
+                    <span>User <b>Admin</b> <i class=" icofont icofont-simple-down"></i></span>
 
-                <li>
-                  <button type="button" class="btn btn-primary btn-md waves-effect waves-light butt" onclick="window.location='{{ URL::route('DangKy') }}'">Đăng ký</button>
-                  <button type="button" class="btn btn-primary btn-md waves-effect waves-light butt" onclick="window.location='{{ URL::route('DangNhap') }}'">Đăng nhập</button>
+                  </a>
+                  <ul class="dropdown-menu settings-menu">
+                    <li><a href="{{ URL::route('User') }}"><i class="icon-settings"></i> Settings</a></li>
+                    <li><a href="{{ URL::route('User') }}"><i class="icon-user"></i> Profile</a></li>
+                    <li class="p-0">
+                      <div class="dropdown-divider m-0"></div>
+                    </li>
+                    <li><a href=""><i class="icon-logout"></i> Logout</a></li>
+
+                  </ul>
                 </li>
               </ul>
 

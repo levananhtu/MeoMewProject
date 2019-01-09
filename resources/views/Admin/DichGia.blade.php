@@ -55,7 +55,7 @@
   <link rel="stylesheet" type="text/css" href="assets/css/color/inverse.css" id="color"/>
 
 </head>
-@include('layouts.header2')
+@include('layouts.AdminHeader')
 
 @include('layouts.leftSideNav3')
 
@@ -118,60 +118,15 @@
                   </li>
                 </ul>
                 <div class="faq-profile-btn">
-                  <button type="button" class="btn btn-success waves-effect waves-light">Chỉnh Sửa
+                  <button type="button" class="btn btn-success waves-effect waves-light">Message
                   </button>
-                  <button type="button" class="btn btn-primary waves-effect waves-light">Lưu
+                  <button type="button" class="btn btn-primary waves-effect waves-light">Follow
                   </button>
                 </div>
 
               </div>
             </div>
             <!-- end of card-block -->
-            <div class="card">
-              <div class="card-header"><h5 class="card-header-text">Technical Skill</h5></div>
-              <div class="card-block">
-                <div class="technical-skill">
-                  <h6>Photoshop</h6>
-                  <div class="faq-progress">
-                    <div class="progress">
-                      <span class="faq-text1"></span>
-                      <div class="faq-bar1"></div>
-                    </div>
-                  </div>
-                  <h6>Illustrator</h6>
-                  <div class="faq-progress">
-                    <div class="progress">
-                      <span class="faq-text2"></span>
-                      <div class="faq-bar2"></div>
-                    </div>
-                  </div>
-                  <h6>PHP</h6>
-                  <div class="faq-progress">
-                    <div class="progress">
-                      <span class="faq-text3"></span>
-                      <div class="faq-bar3"></div>
-                    </div>
-                  </div>
-                  <h6>Javascript</h6>
-                  <div class="faq-progress">
-                    <div class="progress">
-                      <span class="faq-text4"></span>
-                      <div class="faq-bar4"></div>
-                    </div>
-                  </div>
-                  <h6>Communication</h6>
-                  <div class="faq-progress">
-                    <div class="progress">
-                      <span class="faq-text5"></span>
-                      <div class="faq-bar5"></div>
-                    </div>
-                  </div>
-                </div>
-                <!-- end of technical skill -->
-              </div>
-              <!-- end of card-block -->
-            </div>
-            <!-- end of card -->
           </div>
           <!-- end of col-lg-3 -->
 
@@ -473,19 +428,15 @@
                     <!-- Description card start -->
                     <div class="card">
                       <div class="card-header">
-                        <h5 class=" d-inline-block">Description</h5>
+                        <h5 class=" d-inline-block">Mô tả</h5>
                       </div>
                       <div class="card-block">
                         <div class="media p-t-10 m-b-20 ">
-                          <a class="mr-3" href="#">
-                            <img class="media-object m-r-10" src="assets/images/logo-blue.png" alt="Generic placeholder image">
-                          </a>
                           <div class="media-body">
                             <div class="row">
                               <div class="col-md-12">
                                 <div class="company-name">
-                                  <p>MeoMew Team</p>
-                                  <span class="text-muted">14 February, 2017</span>
+                                  <p>Tên Dịch Giả</p>
                                 </div>
                               </div>
                             </div>
@@ -891,10 +842,10 @@
           <!-- end of NavTab -->
           <!-- end of col-lg-9 -->
         </div>
+        @include('layouts.footer-center')
       </div>
       <!-- Container-fluid ends -->
 
-      @include('layouts.footer-center')
     </div>
   </div>
 

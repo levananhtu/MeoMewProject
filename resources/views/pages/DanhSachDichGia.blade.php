@@ -49,8 +49,8 @@
     <link rel="stylesheet" type="text/css" href="assets/css/color/inverse.css" id="color"/>
 
 </head>
-@include('layouts.header2')
-@include('layouts.leftSideNav2')
+@include('layouts.PageHeader')
+@include('layouts.AdminLeftSideNav')
     <div class="content-wrapper">
         <!-- Container-fluid starts -->
         <div class="container-fluid">
@@ -81,9 +81,6 @@
                         <div class="data_table_main">
                             <div class="card-header">
                                 <h5 class="card-header-text">Danh Sách</h5>
-                                <button type="button" class="btn btn-primary waves-effect waves-light f-right md-trigger"
-                                        data-modal="modal-13"><i class="icofont icofont-plus m-r-5"></i> Thêm
-                                </button>
                                 <p class="m-t-5">điền tên dịch giả trong ô Search để lọc từ danh sách.</p>
                                 <p class="m-t-5">Click vào tên tác giả để đến trang thông tin dịch giả.</p>
                             </div>

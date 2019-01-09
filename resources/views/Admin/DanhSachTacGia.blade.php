@@ -49,8 +49,8 @@
     <link rel="stylesheet" type="text/css" href="assets/css/color/inverse.css" id="color"/>
 
 </head>
-@include('layouts.header2')
-@include('layouts.leftSideNav2')
+@include('layouts.AdminHeader')
+@include('layouts.AdminLeftSideNav')
     <div class="content-wrapper">
         <!-- Container-fluid starts -->
         <div class="container-fluid">
