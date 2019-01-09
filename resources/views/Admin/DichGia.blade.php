@@ -180,7 +180,7 @@
             <!-- Nav tabs -->
             <div class="tab-header">
               <ul class="nav nav-tabs md-tabs tab-timeline" role="tablist">
-                <li class="nav-item">
+                <li class="nav-item  active">
                   <a class="nav-link" data-toggle="tab" href="#personal" role="tab">Thông Tin</a>
                   <div class="slide"></div>
                 </li>
@@ -188,18 +188,14 @@
                   <a class="nav-link" data-toggle="tab" href="#project" role="tab">Truyện</a>
                   <div class="slide"></div>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link active" data-toggle="tab" href="#edit-info" role="tab">Sửa thông tin</a>
-                  <div class="slide"></div>
-                </li>
               </ul>
             </div>
             <!-- end of tab-header -->
 
             <div class="tab-content">
-              <div class="tab-pane" id="personal" role="tabpanel">
+              <div class="tab-pane active" id="personal" role="tabpanel">
                 <div class="card">
-                  <div class="card-header"><h5 class="card-header-text">About Me</h5>
+                  <div class="card-header"><h5 class="card-header-text">Về Dịch Giả</h5>
                     <button id="edit-btn" type="button" class="btn btn-primary waves-effect waves-light f-right" >
                       <i  class="icofont icofont-edit"></i>
                     </button>
@@ -214,7 +210,7 @@
                                 <table class="table m-0">
                                   <tbody>
                                     <tr>
-                                      <th scope="row">Full Name</th>
+                                      <th scope="row">Tên Dịch Giả</th>
                                       <td>Josephine Villa</td>
                                     </tr>
                                     <tr>
@@ -275,6 +271,197 @@
                       <!-- end of row -->
                     </div>
                     <!-- end of view-info -->
+                    <div class="edit-info">
+                      <div class="row">
+                        <div class="col-lg-12">
+                          <div class="general-info">
+                            <div class="row">
+                              <div class="col-lg-6">
+                                <table class="table b-none">
+                                  <tbody>
+                                    <tr>
+                                      <td>
+                                        <div class="md-group-add-on">
+                                          <span class="md-add-on">
+                                            <i class="icofont icofont-ui-user"></i>
+                                          </span>
+                                          <div class="md-input-wrapper">
+                                            <input type="text" class="md-form-control">
+                                            <label>Tên Dịch Giả</label>
+                                          </div>
+                                        </div>
+                                      </td>
+
+                                    </tr>
+                                    <tr>
+                                      <td>
+
+                                        <div class="form-radio">
+                                          <form>
+                                            <div class="md-group-add-on">
+                                              <span class="md-add-on">
+                                                <i class="icofont icofont-group-students"></i>
+                                              </span>
+                                              <div class="radio radiofill radio-inline">
+                                                <label>
+                                                  <input type="radio" name="radio"><i class="helper"></i> Nam
+                                                </label>
+                                              </div>
+                                              <div class="radio radiofill radio-inline">
+                                                <label>
+                                                  <input type="radio" name="radio"><i class="helper"></i> Nữ
+                                                </label>
+                                              </div>
+                                              <div class="radio radiofill radio-inline">
+                                                <label>
+                                                  <input type="radio" name="radio" checked=""><i class="helper"></i> Nhóm Dịch
+                                                </label>
+                                              </div>
+                                            </div>
+                                          </form>
+                                        </div>
+                                      </td>
+
+                                    </tr>
+                                    <tr>
+                                      <td>
+                                        <div class="md-group-add-on">
+                                          <span class="md-add-on">
+                                            <i class="icofont icofont-ui-calendar"></i>
+                                          </span>
+                                          <div class="md-input-wrapper">
+                                            <input type="text" id="date" class="md-form-control">
+                                            <label>Ngày thành lập</label>
+                                          </div>
+                                        </div>
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td>
+                                        <div class="md-group-add-on">
+                                          <span class="md-add-on">
+                                            <i class="icofont icofont-heart-beat"></i>
+                                          </span>
+                                          <div class="md-input-wrapper">
+                                            <select class="md-form-control">
+                                              <option>Tình trạng nhóm dịch</option>
+                                              <option>Đang hoạt động</option>
+                                              <option>Ngưng hoạt động</option>
+                                            </select>
+                                          </div>
+                                        </div>
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td>
+                                        <div class="md-group-add-on">
+                                          <span class="md-add-on">
+                                            <i class="icofont icofont-id-card"></i>
+                                          </span>
+                                          <div class="md-input-wrapper">
+                                            <textarea class="md-form-control" cols="2" rows="4"></textarea>
+                                            <label>Mô tả</label>
+
+                                          </div>
+                                        </div>
+                                      </td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </div>
+                              <!-- end of table col-lg-6 -->
+
+                              <div class="col-lg-6">
+                                <table class="table  b-none">
+                                  <tbody>
+                                    <tr>
+                                      <td>
+                                        <div class="md-group-add-on">
+                                          <span class="md-add-on">
+                                            <i class="icofont icofont-email"></i>
+                                          </span>
+                                          <div class="md-input-wrapper">
+                                            <input type="email" class="md-form-control">
+                                            <label>Email</label>
+                                          </div>
+                                        </div>
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td>
+                                        <div class="md-group-add-on">
+                                          <span class="md-add-on">
+                                            <i class="icofont icofont-social-facebook"></i>
+                                          </span>
+                                          <div class="md-input-wrapper">
+                                            <input type="email" class="md-form-control">
+                                            <label>Facebook Id</label>
+                                          </div>
+                                        </div>
+                                      </td>
+
+                                    </tr>
+                                    <tr>
+                                      <td>
+                                        <div class="md-group-add-on">
+                                          <span class="md-add-on">
+                                            <i class="icofont icofont-social-twitter"></i>
+                                          </span>
+                                          <div class="md-input-wrapper">
+                                            <input type="email" class="md-form-control">
+                                            <label>Twitter Id</label>
+                                          </div>
+                                        </div>
+                                      </td>
+
+                                    </tr>
+                                    <tr>
+                                      <td>
+                                        <div class="md-group-add-on">
+                                          <span class="md-add-on">
+                                            <i class="icofont icofont-social-skype"></i>
+                                          </span>
+                                          <div class="md-input-wrapper">
+                                            <input type="email" class="md-form-control">
+                                            <label>Skype Id</label>
+                                          </div>
+                                        </div>
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td>
+                                        <div class="md-group-add-on">
+                                          <span class="md-add-on">
+                                            <i class="icofont icofont-web"></i>
+                                          </span>
+                                          <div class="md-input-wrapper">
+                                            <input type="text" class="md-form-control">
+                                            <label>Website</label>
+                                          </div>
+                                        </div>
+                                      </td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+
+                              </div>
+
+                              <!-- end of table col-lg-6 -->
+                            </div>
+                            <!-- end of row -->
+                            <div class="text-center">
+                              <a href="#!" class="btn btn-primary waves-effect waves-light m-r-20">Save</a>
+                              <a id="edit-cancel" class="btn btn-default waves-effect">Cancel</a>
+                            </div>
+                          </div>
+                          <!-- end of edit info -->
+                        </div>
+                        <!-- end of col-lg-12 -->
+                      </div>
+                      <!-- end of row -->
+
+                    </div>
+                    <!-- end of view-info -->
                   </div>
                   <!-- end of card-block -->
                 </div>
@@ -287,11 +474,6 @@
                     <div class="card">
                       <div class="card-header">
                         <h5 class=" d-inline-block">Description</h5>
-                        <div class="card-header-right f-right">
-                          <button type="button" class="btn btn-primary waves-effect waves-light btn-sm m-1">
-                            Chỉnh sửa
-                          </button>
-                        </div>
                       </div>
                       <div class="card-block">
                         <div class="media p-t-10 m-b-20 ">
@@ -311,6 +493,7 @@
                         </div>
                         <p>Across a Global footprint, we believe we’re at our best when you’re at yours. From our diverse workforce, our flexible working policies to our creative work spaces, we embrace a culture of learning and sharing to develop our next stage growth. It’s in our hearts to push forward, to create a better future, to never rest and find new ways that help people communicate.</p>
                         <p>We are committed to developing the very best people by offering a flexible, motivating and inclusive workplace in which talent is truly recognised and rewarded. We respect, value and celebrate our people’s individual differences - we are not only multinational but multicultural too. That’s what we mean when we say Power to you.</p>
+
                       </div>
                     </div>
                     <!-- Company profile card end -->
@@ -368,430 +551,336 @@
                 <div class="card">
                   <div class="card-header">
                     <h5 class="card-header-text">Danh Sách</h5>
-                    <button type="button" class="btn btn-primary waves-effect waves-light f-right">
-                      + Thêm Truyện</button>
-                    </div>
-                    <!-- end of card-header  -->
-                    <div class="row">
-                      <div class="col-lg-12">
-                        <div class="project-table">
-                          <div class="table-responsive">
-                            <table class="table table-hover">
-                              <thead>
-                                <tr>
-                                  <th class="text-center txt-primary pro-pic">Ảnh</th>
-                                  <th class="text-center txt-primary">Tên truyện</th>
-                                  <th class="text-center txt-primary">Ngày bắt đầu</th>
-                                  <th class="text-center txt-primary">Ngày kết thúc</th>
-                                  <th class="text-center txt-primary">Tình trạng</th>
-                                  <th class="text-center txt-primary">Chỉnh sửa</th>
-                                </tr>
-                              </thead>
-                              <tbody class="text-center">
-                                <tr>
-                                  <td>
-                                    <img src="assets/images/avatar-2.png" class="rounded-circle" alt="tbl">
-                                  </td>
-                                  <td>Lorem ipsum dolor sit amet, consectetur </td>
-                                  <td>Oct 25th, 2014</td>
-                                  <td>Oct 25th, 2015</td>
-                                  <td class="text-center"><span class="label label-warning m-t-20">Kết thúc</span>
-                                  </td>
-                                  <td class="faq-table-btn">
-                                    <button type="button" class="btn btn-primary waves-effect waves-light" data-toggle="tooltip" data-placement="top" title="Edit">
-                                      <i class="icofont icofont-ui-edit"></i>
-                                    </button>
-                                    <button type="button" class="btn btn-danger waves-effect waves-light" data-toggle="tooltip" data-placement="top" title="Delete">
-                                      <i class="icofont icofont-ui-delete"></i>
-                                    </button>
-                                  </td>
-                                </tr>
-                                <tr>
-                                  <td>
-                                    <img src="assets/images/avatar-2.png" class="rounded-circle" alt="tbl">
-                                  </td>
-                                  <td>Lorem ipsum dolor sit amett</td>
-                                  <td>Oct 25th, 2014</td>
-                                  <td>Oct 25th, 2015</td>
-                                  <td class="text-center"><span class="label label-warning">Kết thúc</span>
-                                  </td>
-                                  <td class="faq-table-btn">
-                                    <button type="button" class="btn btn-primary waves-effect waves-light" data-toggle="tooltip" data-placement="top" title="Edit">
-                                      <i class="icofont icofont-ui-edit"></i>
-                                    </button>
-                                    <button type="button" class="btn btn-danger waves-effect waves-light" data-toggle="tooltip" data-placement="top" title="Delete">
-                                      <i class="icofont icofont-ui-delete"></i>
-                                    </button>
-                                  </td>
-                                </tr>
-                                <tr>
-                                  <td>
-                                    <img src="assets/images/avatar-2.png" class="rounded-circle" alt="tbl">
-                                  </td>
-                                  <td>Lorem ipsum dolor sit amett</td>
-                                  <td>Oct 25th, 2014</td>
-                                  <td>Oct 25th, 2015</td>
-                                  <td class="text-center"><span class="label label-success">Đang tiến hành</span>
-                                  </td>
-                                  <td class="faq-table-btn">
-                                    <button type="button" class="btn btn-primary waves-effect waves-light" data-toggle="tooltip" data-placement="top" title="Edit">
-                                      <i class="icofont icofont-ui-edit"></i>
-                                    </button>
-                                    <button type="button" class="btn btn-danger waves-effect waves-light" data-toggle="tooltip" data-placement="top" title="Delete">
-                                      <i class="icofont icofont-ui-delete"></i>
-                                    </button>
-                                  </td>
-                                </tr>
-                                <tr>
-                                  <td>
-                                    <img src="assets/images/avatar-2.png" class="rounded-circle" alt="tbl">
-                                  </td>
-                                  <td>Lorem ipsum dolor sit amett</td>
-                                  <td>Oct 25th, 2014</td>
-                                  <td>Oct 25th, 2015</td>
-                                  <td class="text-center"><span class="label label-warning">Kết thúc</span></td>
-                                  <td class="faq-table-btn">
-                                    <button type="button" class="btn btn-primary waves-effect waves-light" data-toggle="tooltip" data-placement="top" title="Edit">
-                                      <i class="icofont icofont-ui-edit"></i>
-                                    </button>
-                                    <button type="button" class="btn btn-danger waves-effect waves-light" data-toggle="tooltip" data-placement="top" title="Delete">
-                                      <i class="icofont icofont-ui-delete"></i>
-                                    </button>
-                                  </td>
-                                </tr>
-                                <tr>
-                                  <td>
-                                    <img src="assets/images/avatar-2.png" class="rounded-circle" alt="tbl">
-                                  </td>
-                                  <td>Lorem ipsum dolor sit amett</td>
-                                  <td>Oct 25th, 2014</td>
-                                  <td>Oct 25th, 2015</td>
-                                  <td class="text-center"><span class="label label-danger">Tạm ngưng</span></td>
-                                  <td class="faq-table-btn">
-                                    <button type="button" class="btn btn-primary waves-effect waves-light" data-toggle="tooltip" data-placement="top" title="Edit">
-                                      <i class="icofont icofont-ui-edit"></i>
-                                    </button>
-                                    <button type="button" class="btn btn-danger waves-effect waves-light" data-toggle="tooltip" data-placement="top" title="Delete">
-                                      <i class="icofont icofont-ui-delete"></i>
-                                    </button>
-                                  </td>
-                                </tr>
-                                <tr>
-                                  <td>
-                                    <img src="assets/images/avatar-2.png" class="rounded-circle" alt="tbl">
-                                  </td>
-                                  <td>Lorem ipsum dolor sit amett</td>
-                                  <td>Oct 25th, 2014</td>
-                                  <td>Oct 25th, 2015</td>
-                                  <td class="text-center"><span class="label label-success">Đang tiến hành</span>
-                                  </td>
-                                  <td class="faq-table-btn">
-                                    <button type="button" class="btn btn-primary waves-effect waves-light" data-toggle="tooltip" data-placement="top" title="Edit">
-                                      <i class="icofont icofont-ui-edit"></i>
-                                    </button>
-                                    <button type="button" class="btn btn-danger waves-effect waves-light" data-toggle="tooltip" data-placement="top" title="Delete">
-                                      <i class="icofont icofont-ui-delete"></i>
-                                    </button>
-                                  </td>
-                                </tr>
-                                <tr>
-                                  <td>
-                                    <img src="assets/images/avatar-2.png" class="rounded-circle" alt="tbl">
-                                  </td>
-                                  <td>Lorem ipsum dolor sit amett</td>
-                                  <td>Oct 25th, 2014</td>
-                                  <td>Oct 25th, 2015</td>
-                                  <td class="text-center"><span class="label label-warning m-t-20">Kết thúc</span>
-                                  </td>
-                                  <td class="faq-table-btn">
-                                    <button type="button" class="btn btn-primary waves-effect waves-light" data-toggle="tooltip" data-placement="top" title="Edit">
-                                      <i class="icofont icofont-ui-edit"></i>
-                                    </button>
-                                    <button type="button" class="btn btn-danger waves-effect waves-light" data-toggle="tooltip" data-placement="top" title="Delete">
-                                      <i class="icofont icofont-ui-delete"></i>
-                                    </button>
-                                  </td>
-                                </tr>
-                                <tr>
-                                  <td>
-                                    <img src="assets/images/avatar-2.png" class="rounded-circle" alt="tbl">
-                                  </td>
-                                  <td>Lorem ipsum dolor sit amett</td>
-                                  <td>Oct 25th, 2014</td>
-                                  <td>Oct 25th, 2015</td>
-                                  <td class="text-center"><span class="label label-warning m-t-20">Kết thúc</span>
-                                  </td>
-                                  <td class="faq-table-btn">
-                                    <button type="button" class="btn btn-primary waves-effect waves-light" data-toggle="tooltip" data-placement="top" title="Edit">
-                                      <i class="icofont icofont-ui-edit"></i>
-                                    </button>
-                                    <button type="button" class="btn btn-danger waves-effect waves-light" data-toggle="tooltip" data-placement="top" title="Delete">
-                                      <i class="icofont icofont-ui-delete"></i>
-                                    </button>
-                                  </td>
-                                </tr>
-                                <tr>
-                                  <td>
-                                    <img src="assets/images/avatar-2.png" class="rounded-circle" alt="tbl">
-                                  </td>
-                                  <td>Lorem ipsum dolor sit amett</td>
-                                  <td>Oct 25th, 2014</td>
-                                  <td>Oct 25th, 2015</td>
-                                  <td class="text-center"><span class="label label-success">Đang tiến hành</span>
-                                  </td>
-                                  <td class="faq-table-btn">
-                                    <button type="button" class="btn btn-primary waves-effect waves-light" data-toggle="tooltip" data-placement="top" title="Edit">
-                                      <i class="icofont icofont-ui-edit"></i>
-                                    </button>
-                                    <button type="button" class="btn btn-danger waves-effect waves-light" data-toggle="tooltip" data-placement="top" title="Delete">
-                                      <i class="icofont icofont-ui-delete"></i>
-                                    </button>
-                                  </td>
-                                </tr>
-                                <tr>
-                                  <td>
-                                    <img src="assets/images/avatar-2.png" class="rounded-circle" alt="tbl">
-                                  </td>
-                                  <td>Lorem ipsum dolor sit amett</td>
-                                  <td>Oct 25th, 2014</td>
-                                  <td>Oct 25th, 2015</td>
-                                  <td class="text-center"><span class="label label-warning m-t-20">Kết thúc</span>
-                                  </td>
-                                  <td class="faq-table-btn">
-                                    <button type="button" class="btn btn-primary waves-effect waves-light" data-toggle="tooltip" data-placement="top" title="Edit">
-                                      <i class="icofont icofont-ui-edit"></i>
-                                    </button>
-                                    <button type="button" class="btn btn-danger waves-effect waves-light" data-toggle="tooltip" data-placement="top" title="Delete">
-                                      <i class="icofont icofont-ui-delete"></i>
-                                    </button>
-                                  </td>
-                                </tr>
-                                <tr>
-                                  <td>
-                                    <img src="assets/images/avatar-2.png" class="rounded-circle" alt="tbl">
-                                  </td>
-                                  <td>Lorem ipsum dolor sit amett</td>
-                                  <td>Oct 25th, 2014</td>
-                                  <td>Oct 25th, 2015</td>
-                                  <td class="text-center"><span class="label label-success">Đang tiến hành</span>
-                                  </td>
-                                  <td class="faq-table-btn">
-                                    <button type="button" class="btn btn-primary waves-effect waves-light" data-toggle="tooltip" data-placement="top" title="Edit">
-                                      <i class="icofont icofont-ui-edit"></i>
-                                    </button>
-                                    <button type="button" class="btn btn-danger waves-effect waves-light" data-toggle="tooltip" data-placement="top" title="Delete">
-                                      <i class="icofont icofont-ui-delete"></i>
-                                    </button>
-                                  </td>
-                                </tr>
-                              </tbody>
-                            </table>
-                            <!-- end of table -->
-                          </div>
-                          <!-- end of table responsive -->
-                        </div>
-                        <!-- end of project table -->
-                      </div>
-                      <!-- end of col-lg-12 -->
-                    </div>
-                    <!-- end of row -->
-                  </div>
-                  <!-- end of card-main -->
-                </div>
-                <!-- end of project pane -->
-
-                <!-- start tab-pane of edit info -->
-                <div class="tab-pane active" id="edit-info" role="tabpanel">
-                  <div class="card">
-                    <div class="card-header">
-                      <h5 class="card-header-text">Chỉnh Sửa</h5>
+                    <!-- <button id="add-btn" type="button" class="btn btn-primary waves-effect waves-light f-right" >
+                      + Thêm Truyện
+                    </button> -->
                     </div>
                     <!-- end of card-header  -->
                     <div class="card-block">
-                      <div class="edit-info">
+                      <div class="view-table">
                         <div class="row">
                           <div class="col-lg-12">
-                            <div class="edit-info">
-                              <div class="row">
-                                <div class="col-lg-6">
-                                  <table class="table">
-                                    <tbody>
-                                      <tr>
-                                        <td>
-                                          <div class="md-group-add-on">
-                                            <span class="md-add-on">
-                                              <i class="icofont icofont-ui-user"></i>
-                                            </span>
-                                            <div class="md-input-wrapper">
-                                              <input type="text" class="md-form-control">
-                                              <label>Tên Truyện</label>
-                                            </div>
-                                          </div>
-                                        </td>
-                                      </tr>
-
-                                      <tr>
-                                        <td>
-                                          <div class="form-radio">
-                                            <form>
-                                              <div class="md-group-add-on">
-                                                <span class="md-add-on">
-                                                  <i class="icofont icofont-group-students"></i>
-                                                </span>
-                                                <div class="radio radiofill radio-inline">
-                                                  <label>
-                                                    <input type="radio" name="radio" checked="checked"><i class="helper"></i> None
-                                                  </label>
-                                                </div>
-                                                <div class="radio radiofill radio-inline">
-                                                  <label>
-                                                    <input type="radio" name="radio"><i class="helper"></i> Mới
-                                                  </label>
-                                                </div>
-                                                <div class="radio radiofill radio-inline">
-                                                  <label>
-                                                    <input type="radio" name="radio"><i class="helper"></i> Nổi Bật
-                                                  </label>
-                                                </div>
-                                              </div>
-                                            </form>
-                                          </div>
-                                        </td>
-                                      </tr>
-
-                                      <tr>
-                                        <td>
-                                          <div class="md-group-add-on">
-                                            <span class="md-add-on">
-                                              <i class="icofont icofont-ui-calendar"></i>
-                                            </span>
-                                            <div class="md-input-wrapper">
-                                              <div class="">
-                                                <input type="text" id="date" class="md-form-control">
-                                              </div>
-                                              <label>Ngày Bắt Đầu</label>
-                                            </div>
-                                          </div>
-                                        </td>
-                                      </tr>
-
-                                      <tr>
-                                        <td>
-                                          <div class="md-group-add-on">
-                                            <span class="md-add-on">
-                                              <i class="icofont icofont-users-alt-4"></i>
-                                            </span>
-                                            <div class="md-input-wrapper">
-                                              <select class="md-form-control">
-                                                <option>Đang tiến hành</option>
-                                                <option>Đã hoàn thành</option>
-                                                <option>Tạm ngưng</option>
-                                              </select>
-                                            </div>
-                                          </div>
-                                        </td>
-                                      </tr>
-
-                                      <tr>
-                                        <td>
-                                          <div class="md-group-add-on">
-                                            <span class="md-add-on">
-                                              <i class="icofont icofont-read-book"></i>
-                                            </span>
-                                            <div class="md-input-wrapper">
-                                              <textarea class="md-form-control" cols="2" rows="4"></textarea>
-                                              <label>Nội Dung</label>
-                                            </div>
-                                          </div>
-                                        </td>
-                                      </tr>
-                                    </tbody>
-                                  </table>
-                                </div>
-                                <!-- end of table col-lg-6 -->
-                                <div class="col-lg-6">
-                                  <table class="table  b-none">
-                                    <tbody>
-                                      <tr>
-                                        <td>
-                                          <div class="md-group-add-on">
-                                            <span class="md-add-on">
-                                              <i class="icofont icofont-sea-plane"></i>
-                                            </span>
-                                            <div class="md-input-wrapper">
-                                              <input type="number" class="md-form-control">
-                                              <label>Số chương (Đã dịch)</label>
-                                            </div>
-                                          </div>
-                                        </td>
-                                      </tr>
-
-                                      <tr>
-                                        <td>
-                                          <div class="md-group-add-on">
-                                            <span class="md-add-on">
-                                              <i class="icofont icofont-island-alt"></i>
-                                            </span>
-                                            <div class="md-input-wrapper">
-                                              <input type="number" class="md-form-control">
-                                              <label>Tổng Số Chương</label>
-                                            </div>
-                                          </div>
-                                        </td>
-                                      </tr>
-
-                                      <tr>
-                                        <td>
-                                          <div class="md-group-add-on">
-                                            <span class="md-add-on">
-                                              <i class="icofont icofont-ui-calendar"></i>
-                                            </span>
-                                            <div class="md-input-wrapper">
-                                              <input type="text" id="date" class="md-form-control">
-                                              <label>Ngày Kết Thúc</label>
-                                            </div>
-                                          </div>
-                                        </td>
-
-                                      </tr>
-
-                                      <tr>
-                                        <td>
-                                          <div class="md-group-add-on">
-                                            <span class="md-add-on">
-                                              <i class="icofont icofont-ui-user"></i>
-                                            </span>
-                                            <div class="md-input-wrapper">
-                                              <input type="text" class="md-form-control">
-                                              <label>Tên Tác Giả</label>
-                                            </div>
-                                          </div>
-                                        </td>
-                                      </tr>
-                                    </tbody>
-                                  </table>
-                                </div>
-                                <!-- end of table col-lg-6 -->
+                            <div class="project-table">
+                              <div class="table-responsive">
+                                <table class="table table-hover">
+                                  <thead>
+                                    <tr>
+                                      <th class="text-center txt-primary pro-pic">Ảnh</th>
+                                      <th class="text-center txt-primary">Tên truyện</th>
+                                      <th class="text-center txt-primary">Ngày bắt đầu</th>
+                                      <th class="text-center txt-primary">Ngày kết thúc</th>
+                                      <th class="text-center txt-primary">Tình trạng</th>
+                                      <th class="text-center txt-primary">Chỉnh sửa</th>
+                                    </tr>
+                                  </thead>
+                                  <tbody class="text-center">
+                                    <tr>
+                                      <td>
+                                        <img src="assets/images/avatar-2.png" class="rounded-circle" alt="tbl">
+                                      </td>
+                                      <td>Lorem ipsum dolor sit amet, consectetur </td>
+                                      <td>Oct 25th, 2014</td>
+                                      <td>Oct 25th, 2015</td>
+                                      <td class="text-center"><span class="label label-warning m-t-20">Kết thúc</span>
+                                      </td>
+                                      <td class="faq-table-btn">
+                                        <button type="button" class="btn btn-primary waves-effect waves-light" data-toggle="tooltip" data-placement="top" title="Edit">
+                                          <i class="icofont icofont-ui-edit"></i>
+                                        </button>
+                                        <button type="button" class="btn btn-danger waves-effect waves-light" data-toggle="tooltip" data-placement="top" title="Delete">
+                                          <i class="icofont icofont-ui-delete"></i>
+                                        </button>
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td>
+                                        <img src="assets/images/avatar-2.png" class="rounded-circle" alt="tbl">
+                                      </td>
+                                      <td>Lorem ipsum dolor sit amett</td>
+                                      <td>Oct 25th, 2014</td>
+                                      <td>Oct 25th, 2015</td>
+                                      <td class="text-center"><span class="label label-warning">Kết thúc</span>
+                                      </td>
+                                      <td class="faq-table-btn">
+                                        <button type="button" class="btn btn-primary waves-effect waves-light" data-toggle="tooltip" data-placement="top" title="Edit">
+                                          <i class="icofont icofont-ui-edit"></i>
+                                        </button>
+                                        <button type="button" class="btn btn-danger waves-effect waves-light" data-toggle="tooltip" data-placement="top" title="Delete">
+                                          <i class="icofont icofont-ui-delete"></i>
+                                        </button>
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td>
+                                        <img src="assets/images/avatar-2.png" class="rounded-circle" alt="tbl">
+                                      </td>
+                                      <td>Lorem ipsum dolor sit amett</td>
+                                      <td>Oct 25th, 2014</td>
+                                      <td>Oct 25th, 2015</td>
+                                      <td class="text-center"><span class="label label-success">Đang tiến hành</span>
+                                      </td>
+                                      <td class="faq-table-btn">
+                                        <button type="button" class="btn btn-primary waves-effect waves-light" data-toggle="tooltip" data-placement="top" title="Edit">
+                                          <i class="icofont icofont-ui-edit"></i>
+                                        </button>
+                                        <button type="button" class="btn btn-danger waves-effect waves-light" data-toggle="tooltip" data-placement="top" title="Delete">
+                                          <i class="icofont icofont-ui-delete"></i>
+                                        </button>
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td>
+                                        <img src="assets/images/avatar-2.png" class="rounded-circle" alt="tbl">
+                                      </td>
+                                      <td>Lorem ipsum dolor sit amett</td>
+                                      <td>Oct 25th, 2014</td>
+                                      <td>Oct 25th, 2015</td>
+                                      <td class="text-center"><span class="label label-warning">Kết thúc</span></td>
+                                      <td class="faq-table-btn">
+                                        <button type="button" class="btn btn-primary waves-effect waves-light" data-toggle="tooltip" data-placement="top" title="Edit">
+                                          <i class="icofont icofont-ui-edit"></i>
+                                        </button>
+                                        <button type="button" class="btn btn-danger waves-effect waves-light" data-toggle="tooltip" data-placement="top" title="Delete">
+                                          <i class="icofont icofont-ui-delete"></i>
+                                        </button>
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td>
+                                        <img src="assets/images/avatar-2.png" class="rounded-circle" alt="tbl">
+                                      </td>
+                                      <td>Lorem ipsum dolor sit amett</td>
+                                      <td>Oct 25th, 2014</td>
+                                      <td>Oct 25th, 2015</td>
+                                      <td class="text-center"><span class="label label-danger">Tạm ngưng</span></td>
+                                      <td class="faq-table-btn">
+                                        <button type="button" class="btn btn-primary waves-effect waves-light" data-toggle="tooltip" data-placement="top" title="Edit">
+                                          <i class="icofont icofont-ui-edit"></i>
+                                        </button>
+                                        <button type="button" class="btn btn-danger waves-effect waves-light" data-toggle="tooltip" data-placement="top" title="Delete">
+                                          <i class="icofont icofont-ui-delete"></i>
+                                        </button>
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td>
+                                        <img src="assets/images/avatar-2.png" class="rounded-circle" alt="tbl">
+                                      </td>
+                                      <td>Lorem ipsum dolor sit amett</td>
+                                      <td>Oct 25th, 2014</td>
+                                      <td>Oct 25th, 2015</td>
+                                      <td class="text-center"><span class="label label-success">Đang tiến hành</span>
+                                      </td>
+                                      <td class="faq-table-btn">
+                                        <button type="button" class="btn btn-primary waves-effect waves-light" data-toggle="tooltip" data-placement="top" title="Edit">
+                                          <i class="icofont icofont-ui-edit"></i>
+                                        </button>
+                                        <button type="button" class="btn btn-danger waves-effect waves-light" data-toggle="tooltip" data-placement="top" title="Delete">
+                                          <i class="icofont icofont-ui-delete"></i>
+                                        </button>
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td>
+                                        <img src="assets/images/avatar-2.png" class="rounded-circle" alt="tbl">
+                                      </td>
+                                      <td>Lorem ipsum dolor sit amett</td>
+                                      <td>Oct 25th, 2014</td>
+                                      <td>Oct 25th, 2015</td>
+                                      <td class="text-center"><span class="label label-warning m-t-20">Kết thúc</span>
+                                      </td>
+                                      <td class="faq-table-btn">
+                                        <button type="button" class="btn btn-primary waves-effect waves-light" data-toggle="tooltip" data-placement="top" title="Edit">
+                                          <i class="icofont icofont-ui-edit"></i>
+                                        </button>
+                                        <button type="button" class="btn btn-danger waves-effect waves-light" data-toggle="tooltip" data-placement="top" title="Delete">
+                                          <i class="icofont icofont-ui-delete"></i>
+                                        </button>
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td>
+                                        <img src="assets/images/avatar-2.png" class="rounded-circle" alt="tbl">
+                                      </td>
+                                      <td>Lorem ipsum dolor sit amett</td>
+                                      <td>Oct 25th, 2014</td>
+                                      <td>Oct 25th, 2015</td>
+                                      <td class="text-center"><span class="label label-warning m-t-20">Kết thúc</span>
+                                      </td>
+                                      <td class="faq-table-btn">
+                                        <button type="button" class="btn btn-primary waves-effect waves-light" data-toggle="tooltip" data-placement="top" title="Edit">
+                                          <i class="icofont icofont-ui-edit"></i>
+                                        </button>
+                                        <button type="button" class="btn btn-danger waves-effect waves-light" data-toggle="tooltip" data-placement="top" title="Delete">
+                                          <i class="icofont icofont-ui-delete"></i>
+                                        </button>
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td>
+                                        <img src="assets/images/avatar-2.png" class="rounded-circle" alt="tbl">
+                                      </td>
+                                      <td>Lorem ipsum dolor sit amett</td>
+                                      <td>Oct 25th, 2014</td>
+                                      <td>Oct 25th, 2015</td>
+                                      <td class="text-center"><span class="label label-success">Đang tiến hành</span>
+                                      </td>
+                                      <td class="faq-table-btn">
+                                        <button type="button" class="btn btn-primary waves-effect waves-light" data-toggle="tooltip" data-placement="top" title="Edit">
+                                          <i class="icofont icofont-ui-edit"></i>
+                                        </button>
+                                        <button type="button" class="btn btn-danger waves-effect waves-light" data-toggle="tooltip" data-placement="top" title="Delete">
+                                          <i class="icofont icofont-ui-delete"></i>
+                                        </button>
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td>
+                                        <img src="assets/images/avatar-2.png" class="rounded-circle" alt="tbl">
+                                      </td>
+                                      <td>Lorem ipsum dolor sit amett</td>
+                                      <td>Oct 25th, 2014</td>
+                                      <td>Oct 25th, 2015</td>
+                                      <td class="text-center"><span class="label label-warning m-t-20">Kết thúc</span>
+                                      </td>
+                                      <td class="faq-table-btn">
+                                        <button type="button" class="btn btn-primary waves-effect waves-light" data-toggle="tooltip" data-placement="top" title="Edit">
+                                          <i class="icofont icofont-ui-edit"></i>
+                                        </button>
+                                        <button type="button" class="btn btn-danger waves-effect waves-light" data-toggle="tooltip" data-placement="top" title="Delete">
+                                          <i class="icofont icofont-ui-delete"></i>
+                                        </button>
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td>
+                                        <img src="assets/images/avatar-2.png" class="rounded-circle" alt="tbl">
+                                      </td>
+                                      <td>Lorem ipsum dolor sit amett</td>
+                                      <td>Oct 25th, 2014</td>
+                                      <td>Oct 25th, 2015</td>
+                                      <td class="text-center"><span class="label label-success">Đang tiến hành</span>
+                                      </td>
+                                      <td class="faq-table-btn">
+                                        <button type="button" class="btn btn-primary waves-effect waves-light" data-toggle="tooltip" data-placement="top" title="Edit">
+                                          <i class="icofont icofont-ui-edit"></i>
+                                        </button>
+                                        <button type="button" class="btn btn-danger waves-effect waves-light" data-toggle="tooltip" data-placement="top" title="Delete">
+                                          <i class="icofont icofont-ui-delete"></i>
+                                        </button>
+                                      </td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                                <!-- end of table -->
                               </div>
-                              <!-- end of row -->
-                              <div class="text-center">
-                                <a href="#!" class="btn btn-primary waves-effect waves-light m-r-20">Save</a>
-                                <a href="#!" id="edit-cancel" class="btn btn-default waves-effect">Cancel</a>
-                              </div>
+                              <!-- end of table responsive -->
                             </div>
-                            <!-- end of edit info -->
+                            <!-- end of project table -->
                           </div>
                           <!-- end of col-lg-12 -->
                         </div>
                         <!-- end of row -->
                       </div>
-
                     </div>
-                    <!-- end of card block -->
                   </div>
                   <!-- end of card-main -->
+                  <!-- Add Comic Start Model -->
+                  <form class="md-float-material" action="index.html">
+                    @csrf
+                    <div class="md-modal md-effect-13 addcomic" id="modal-13">
+                        <div class="md-content">
+                            <h3 class="f-26 text-center">Thêm Truyện</h3>
+                            <div class="card-block">
+                              <div class="row">
+                                <div class="col-md-6">
+                                  <div class="md-group-add-on">
+                                                  <span class="md-add-on-file">
+                                                      <button class="btn btn-success waves-effect waves-light">File</button>
+                                                  </span>
+                                      <div class="md-input-file">
+                                          <input type="file" class=""/>
+                                          <input type="text" class="md-form-control md-form-file">
+                                          <label class="md-label-file">Upload Hình Đại Diện</label>
+                                      </div>
+                                  </div>
+                                  <div class="md-group-add-on">
+                                      <span class="md-add-on">
+                                          <i class="icofont icofont-read-book"></i>
+                                       </span>
+                                      <div class="md-input-wrapper">
+                                          <input type="text" class="md-form-control"/>
+                                          <label>Tên Truyện</label>
+                                      </div>
+                                  </div>
+                                  <div class="md-group-add-on">
+                                      <span class="md-add-on">
+                                          <i class="icofont icofont-pen-nib"></i>
+                                       </span>
+                                      <div class="md-input-wrapper">
+                                          <input type="text" class="md-form-control"/>
+                                          <label>Tên Tác Giả</label>
+                                      </div>
+                                  </div>
+                                  <div class="md-group-add-on">
+                                      <span class="md-add-on">
+                                          <i class="icofont icofont-brand-opensuse"></i>
+                                       </span>
+                                      <div class="md-input-wrapper">
+                                          <input type="text" class="md-form-control"/>
+                                          <label>Tên Dịch Giả</label>
+                                      </div>
+                                  </div>
+                                </div>
+                                <div class="col-md-6">
+                                  <div class="md-input-wrapper">
+                                    <input type="text" class="md-form-control" />
+                                    <label>Link Hình Đại Diện</label>
+                                  </div>
+                                <div class="md-group-add-on">
+                                  <span class="md-add-on">
+                                    <i class="icofont icofont-opposite"></i>
+                                  </span>
+                                  <div class="md-input-wrapper">
+                                    <input type="text" class="md-form-control"/>
+                                    <label>Tổng số chương</label>
+                                  </div>
+                                </div>
+                                <div class="md-input-wrapper">
+                                  <select class="md-form-control">
+                                    <option>Đang tiến hành</option>
+                                    <option>Đã Hoàn Thành</option>
+                                    <option>Tạm Ngưng</option>
+                                  </select>
+                                </div>
+                                <div class="md-input-wrapper">
+                                  <select class="md-form-control">
+                                    <option>Thể Loại</option>
+                                    <option>Shounen</option>
+                                    <option>Seinen</option>
+                                  </select>
+                                </div>
+                              </div>
+                              </div>
+                                <div class="md-input-wrapper">
+                                    <textarea class="md-form-control" cols="2" rows="4"></textarea>
+                                    <label class="label label-lg"> Mô tả </label>
+                                </div>
+                                <div class="text-center m-t-30">
+                                    <button type="button" class="btn btn-primary waves-effect m-r-20 f-w-600 d-inline-block">Save
+                                    </button>
+                                    <button type="button"
+                                            class="btn btn-primary waves-effect m-r-20 f-w-600 md-close d-inline-block">Close
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  </form>
+                  <!-- end of form -->
+                  <!-- Add Comic Ends Model-->
                 </div>
-                <!-- end of edit-info pane -->
+                <!-- end of project pane -->
 
               </div>
               <!-- end of edit info tab-pane  -->
@@ -802,7 +891,6 @@
           <!-- end of NavTab -->
           <!-- end of col-lg-9 -->
         </div>
-
       </div>
       <!-- Container-fluid ends -->
 
@@ -883,6 +971,8 @@
 <!-- pie chart.js -->
 <script type="text/javascript" src="../bower_components/bower-jquery-easyPieChart/js/jquery.easypiechart.min.js"></script>
 <script type="text/javascript" src="assets/pages/counter.js"></script>
+<!-- Model animation js -->
+<script type="text/javascript" src="assets/plugins/ModalWindowEffects/js/modalEffects.js"></script>
 
 <!-- Date picker.js -->
 <script type="text/javascript" src="../bower_components/moment/js/moment.js"></script>

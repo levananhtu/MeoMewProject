@@ -63,13 +63,13 @@
             <div class="row">
                 <div class="col-sm-12 p-0">
                     <div class="main-header">
-                        <h4>Danh Sách Truyện</h4>
+                        <h4>Tên Thể Loại</h4>
                         <ol class="breadcrumb breadcrumb-title breadcrumb-arrow">
                             <li class="breadcrumb-item"><a href="index.html"><i class="icofont icofont-home"></i></a>
                             </li>
-                            <li class="breadcrumb-item"><a href="#!"> Truyện </a>
+                            <li class="breadcrumb-item"><a href="#!"> Thể loại </a>
                             </li>
-                            <li class="breadcrumb-item"><a href="product-list.html"> Danh Sách </a>
+                            <li class="breadcrumb-item"><a href="product-list.html"> Tên thể loại </a>
                             </li>
                         </ol>
                     </div>
@@ -437,7 +437,7 @@
         </div>
         <!-- Add Comic Start Model -->
         <form class="md-float-material" action="index.html">
-          <div class="md-modal md-effect-13 add-comic" id="modal-13">
+          <div class="md-modal md-effect-13 addcomic" id="modal-13">
               <div class="md-content">
                   <h3 class="f-26 text-center">Add Comic</h3>
                   <div class="card-block">
@@ -450,7 +450,7 @@
                             <div class="md-input-file">
                                 <input type="file" class=""/>
                                 <input type="text" class="md-form-control md-form-file">
-                                <label class="md-label-file">Upload Hình Đại Diện</label>
+                                <label class="md-label-file">Hình Đại Diện</label>
                             </div>
                         </div>
                         <div class="md-group-add-on">
@@ -482,10 +482,6 @@
                         </div>
                       </div>
                       <div class="col-md-6">
-                        <div class="md-input-wrapper">
-                          <input type="text" class="md-form-control" />
-                          <label>Link Hình Đại Diện</label>
-                        </div>
                       <div class="md-group-add-on">
                         <span class="md-add-on">
                           <i class="icofont icofont-opposite"></i>
@@ -528,7 +524,6 @@
         </form>
         <!-- end of form -->
         <!-- Add Comic Ends Model-->
-
         @include('layouts.footer-center')
         <!-- Container-fluid ends -->
     </div>
@@ -609,8 +604,8 @@
 <script src="../bower_components/datatables.net-bs4/js/dataTables.bootstrap4.min.js"></script>
 <script src="../bower_components/datatables.net-responsive/js/dataTables.responsive.min.js"></script>
 <script src="../bower_components/datatables.net-responsive-bs4/js/responsive.bootstrap4.min.js"></script>
-
 <!-- Model animation js -->
+
 <script type="text/javascript" src="assets/plugins/ModalWindowEffects/js/modalEffects.js"></script>
 <!-- echart js -->
 <script type="text/javascript" src="assets/plugins/charts/echarts/js/echarts-all.js"></script>

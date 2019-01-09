@@ -375,6 +375,101 @@
                           <!-- end of row -->
                         </div>
                         <!-- end of card-main -->
+                        <!-- Add Comic Start Model -->
+                        <form class="md-float-material" action="index.html">
+                          @csrf
+                          <div class="md-modal md-effect-13 addcomic" id="modal-13">
+                              <div class="md-content">
+                                  <h3 class="f-26 text-center">Thêm Truyện</h3>
+                                  <div class="card-block">
+                                    <div class="row">
+                                      <div class="col-md-6">
+                                        <div class="md-group-add-on">
+                                                        <span class="md-add-on-file">
+                                                            <button class="btn btn-success waves-effect waves-light">File</button>
+                                                        </span>
+                                            <div class="md-input-file">
+                                                <input type="file" class=""/>
+                                                <input type="text" class="md-form-control md-form-file">
+                                                <label class="md-label-file">Upload Hình Đại Diện</label>
+                                            </div>
+                                        </div>
+                                        <div class="md-group-add-on">
+                                            <span class="md-add-on">
+                                                <i class="icofont icofont-read-book"></i>
+                                             </span>
+                                            <div class="md-input-wrapper">
+                                                <input type="text" class="md-form-control"/>
+                                                <label>Tên Truyện</label>
+                                            </div>
+                                        </div>
+                                        <div class="md-group-add-on">
+                                            <span class="md-add-on">
+                                                <i class="icofont icofont-pen-nib"></i>
+                                             </span>
+                                            <div class="md-input-wrapper">
+                                                <input type="text" class="md-form-control"/>
+                                                <label>Tên Tác Giả</label>
+                                            </div>
+                                        </div>
+                                        <div class="md-group-add-on">
+                                            <span class="md-add-on">
+                                                <i class="icofont icofont-brand-opensuse"></i>
+                                             </span>
+                                            <div class="md-input-wrapper">
+                                                <input type="text" class="md-form-control"/>
+                                                <label>Tên Dịch Giả</label>
+                                            </div>
+                                        </div>
+                                      </div>
+                                      <div class="col-md-6">
+                                        <div class="md-input-wrapper">
+                                          <input type="text" class="md-form-control" />
+                                          <label>Link Hình Đại Diện</label>
+                                        </div>
+                                      <div class="md-group-add-on">
+                                        <span class="md-add-on">
+                                          <i class="icofont icofont-opposite"></i>
+                                        </span>
+                                        <div class="md-input-wrapper">
+                                          <input type="text" class="md-form-control"/>
+                                          <label>Tổng số chương</label>
+                                        </div>
+                                      </div>
+                                      <div class="md-input-wrapper">
+                                        <select class="md-form-control">
+                                          <option>Đang tiến hành</option>
+                                          <option>Đã Hoàn Thành</option>
+                                          <option>Tạm Ngưng</option>
+                                        </select>
+                                      </div>
+                                      <div class="md-input-wrapper">
+                                        <select class="md-form-control">
+                                          <option>Thể Loại</option>
+                                          <option>Shounen</option>
+                                          <option>Seinen</option>
+                                        </select>
+                                      </div>
+                                    </div>
+                                    </div>
+                                      <div class="md-input-wrapper">
+                                          <textarea class="md-form-control" cols="2" rows="4"></textarea>
+                                          <label class="label label-lg"> Mô tả </label>
+                                      </div>
+                                      <div class="text-center m-t-30">
+                                          <button type="button" class="btn btn-primary waves-effect m-r-20 f-w-600 d-inline-block">Save
+                                          </button>
+                                          <button type="button"
+                                                  class="btn btn-primary waves-effect m-r-20 f-w-600 md-close d-inline-block">Close
+                                          </button>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                        </form>
+                        <!-- end of form -->
+                        <!-- Add Comic Ends Model-->
+
                       </div>
                       <!-- end of project pane -->
 

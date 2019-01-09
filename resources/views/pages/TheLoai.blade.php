@@ -63,13 +63,13 @@
             <div class="row">
                 <div class="col-sm-12 p-0">
                     <div class="main-header">
-                        <h4>Danh Sách Truyện</h4>
+                        <h4>Tên Thể Loại</h4>
                         <ol class="breadcrumb breadcrumb-title breadcrumb-arrow">
                             <li class="breadcrumb-item"><a href="index.html"><i class="icofont icofont-home"></i></a>
                             </li>
-                            <li class="breadcrumb-item"><a href="#!"> Truyện </a>
+                            <li class="breadcrumb-item"><a href="#!"> Thể loại </a>
                             </li>
-                            <li class="breadcrumb-item"><a href="product-list.html"> Danh Sách </a>
+                            <li class="breadcrumb-item"><a href="product-list.html"> Tên thể loại </a>
                             </li>
                         </ol>
                     </div>
@@ -81,9 +81,6 @@
                     <div class="card">
                         <div class="card-header">
                             <h5 class="card-header-text">Danh sách truyện</h5>
-                            <button type="button" class="btn btn-primary waves-effect waves-light f-right md-trigger"
-                                    data-modal="modal-13"><i class="icofont icofont-plus m-r-5"></i> Thêm Truyện
-                            </button>
                         </div>
                         <div class="card-block">
                             <div class="row">
@@ -99,7 +96,6 @@
                                                     <th>Tên Truyện</th>
                                                     <th>Chương</th>
                                                     <th>Tình Trạng</th>
-                                                    <th>Chỉnh Sửa</th>
                                                 </tr>
                                                 </thead>
                                                 <tbody>
@@ -114,15 +110,6 @@
                                                     </td>
                                                     <td> 456</td>
                                                     <td><label class="text-danger">Tạm Ngưng</label></td>
-                                                    <td class="action-icon">
-                                                        <a href="#!" class="m-r-15 text-muted" data-toggle="tooltip"
-                                                           data-placement="top" title="" data-original-title="Edit"><i
-                                                                class="icofont icofont-edit"></i></a>
-                                                        <a href="#!" class="text-muted" data-toggle="tooltip"
-                                                           data-placement="top" title=""
-                                                           data-original-title="Delete"><i
-                                                                class="icofont icofont-ui-delete"></i></a>
-                                                    </td>
                                                 </tr>
                                                 <tr>
                                                     <td class="pro-list-img">
@@ -134,15 +121,6 @@
                                                     </td>
                                                     <td> 689</td>
                                                     <td><label class="text-success">Đang tiến hành</label></td>
-                                                    <td class="action-icon">
-                                                        <a href="#!" class="m-r-15 text-muted" data-toggle="tooltip"
-                                                           data-placement="top" title="" data-original-title="Edit"><i
-                                                                class="icofont icofont-edit"></i></a>
-                                                        <a href="#!" class="text-muted" data-toggle="tooltip"
-                                                           data-placement="top" title=""
-                                                           data-original-title="Delete"><i
-                                                                class="icofont icofont-ui-delete"></i></a>
-                                                    </td>
                                                 </tr>
                                                 <tr>
                                                     <td class="pro-list-img">
@@ -154,15 +132,6 @@
                                                     </td>
                                                     <td> 755</td>
                                                     <td><label class="text-warning">Đã Hoàn Thành</label></td>
-                                                    <td class="action-icon">
-                                                        <a href="#!" class="m-r-15 text-muted" data-toggle="tooltip"
-                                                           data-placement="top" title="" data-original-title="Edit"><i
-                                                                class="icofont icofont-edit"></i></a>
-                                                        <a href="#!" class="text-muted" data-toggle="tooltip"
-                                                           data-placement="top" title=""
-                                                           data-original-title="Delete"><i
-                                                                class="icofont icofont-ui-delete"></i></a>
-                                                    </td>
                                                 </tr>
                                                 <tr>
                                                     <td class="pro-list-img">
@@ -174,15 +143,6 @@
                                                     </td>
                                                     <td> 989</td>
                                                     <td><label class="text-success">Đang tiến hành</label></td>
-                                                    <td class="action-icon">
-                                                        <a href="#!" class="m-r-15 text-muted" data-toggle="tooltip"
-                                                           data-placement="top" title="" data-original-title="Edit"><i
-                                                                class="icofont icofont-edit"></i></a>
-                                                        <a href="#!" class="text-muted" data-toggle="tooltip"
-                                                           data-placement="top" title=""
-                                                           data-original-title="Delete"><i
-                                                                class="icofont icofont-ui-delete"></i></a>
-                                                    </td>
                                                 </tr>
                                                 <tr>
                                                     <td class="pro-list-img">
@@ -194,15 +154,6 @@
                                                     </td>
                                                     <td> 1150</td>
                                                     <td><label class="text-success">Đang tiến hành</label></td>
-                                                    <td class="action-icon">
-                                                        <a href="#!" class="m-r-15 text-muted" data-toggle="tooltip"
-                                                           data-placement="top" title="" data-original-title="Edit"><i
-                                                                class="icofont icofont-edit"></i></a>
-                                                        <a href="#!" class="text-muted" data-toggle="tooltip"
-                                                           data-placement="top" title=""
-                                                           data-original-title="Delete"><i
-                                                                class="icofont icofont-ui-delete"></i></a>
-                                                    </td>
                                                 </tr>
                                                 <tr>
                                                     <td class="pro-list-img">
@@ -214,15 +165,6 @@
                                                     </td>
                                                     <td> 2006</td>
                                                     <td><label class="text-danger">Tạm Ngưng</label></td>
-                                                    <td class="action-icon">
-                                                        <a href="#!" class="m-r-15 text-muted" data-toggle="tooltip"
-                                                           data-placement="top" title="" data-original-title="Edit"><i
-                                                                class="icofont icofont-edit"></i></a>
-                                                        <a href="#!" class="text-muted" data-toggle="tooltip"
-                                                           data-placement="top" title=""
-                                                           data-original-title="Delete"><i
-                                                                class="icofont icofont-ui-delete"></i></a>
-                                                    </td>
                                                 </tr>
                                                 <tr>
                                                     <td class="pro-list-img">
@@ -234,15 +176,6 @@
                                                     </td>
                                                     <td> 1199</td>
                                                     <td><label class="text-success">Đang tiến hành</label></td>
-                                                    <td class="action-icon">
-                                                        <a href="#!" class="m-r-15 text-muted" data-toggle="tooltip"
-                                                           data-placement="top" title="" data-original-title="Edit"><i
-                                                                class="icofont icofont-edit"></i></a>
-                                                        <a href="#!" class="text-muted" data-toggle="tooltip"
-                                                           data-placement="top" title=""
-                                                           data-original-title="Delete"><i
-                                                                class="icofont icofont-ui-delete"></i></a>
-                                                    </td>
                                                 </tr>
                                                 <tr>
                                                     <td class="pro-list-img">
@@ -254,15 +187,6 @@
                                                     </td>
                                                     <td> 589</td>
                                                     <td><label class="text-warning">Đã Hoàn Thành</label></td>
-                                                    <td class="action-icon">
-                                                        <a href="#!" class="m-r-15 text-muted" data-toggle="tooltip"
-                                                           data-placement="top" title="" data-original-title="Edit"><i
-                                                                class="icofont icofont-edit"></i></a>
-                                                        <a href="#!" class="text-muted" data-toggle="tooltip"
-                                                           data-placement="top" title=""
-                                                           data-original-title="Delete"><i
-                                                                class="icofont icofont-ui-delete"></i></a>
-                                                    </td>
                                                 </tr>
                                                 <tr>
                                                     <td class="pro-list-img">
@@ -274,15 +198,6 @@
                                                     </td>
                                                     <td> 1255</td>
                                                     <td><label class="text-danger">Tạm Ngưng</label></td>
-                                                    <td class="action-icon">
-                                                        <a href="#!" class="m-r-15 text-muted" data-toggle="tooltip"
-                                                           data-placement="top" title="" data-original-title="Edit"><i
-                                                                class="icofont icofont-edit"></i></a>
-                                                        <a href="#!" class="text-muted" data-toggle="tooltip"
-                                                           data-placement="top" title=""
-                                                           data-original-title="Delete"><i
-                                                                class="icofont icofont-ui-delete"></i></a>
-                                                    </td>
                                                 </tr>
                                                 <tr>
                                                     <td class="pro-list-img">
@@ -294,15 +209,6 @@
                                                     </td>
                                                     <td> 499</td>
                                                     <td><label class="text-success">Đang tiến hành</label></td>
-                                                    <td class="action-icon">
-                                                        <a href="#!" class="m-r-15 text-muted" data-toggle="tooltip"
-                                                           data-placement="top" title="" data-original-title="Edit"><i
-                                                                class="icofont icofont-edit"></i></a>
-                                                        <a href="#!" class="text-muted" data-toggle="tooltip"
-                                                           data-placement="top" title=""
-                                                           data-original-title="Delete"><i
-                                                                class="icofont icofont-ui-delete"></i></a>
-                                                    </td>
                                                 </tr>
                                                 <tr>
                                                     <td class="pro-list-img">
@@ -314,15 +220,6 @@
                                                     </td>
                                                     <td> 259</td>
                                                     <td><label class="text-success">Đang tiến hành</label></td>
-                                                    <td class="action-icon">
-                                                        <a href="#!" class="m-r-15 text-muted" data-toggle="tooltip"
-                                                           data-placement="top" title="" data-original-title="Edit"><i
-                                                                class="icofont icofont-edit"></i></a>
-                                                        <a href="#!" class="text-muted" data-toggle="tooltip"
-                                                           data-placement="top" title=""
-                                                           data-original-title="Delete"><i
-                                                                class="icofont icofont-ui-delete"></i></a>
-                                                    </td>
                                                 </tr>
                                                 <tr>
                                                     <td class="pro-list-img">
@@ -334,15 +231,6 @@
                                                     </td>
                                                     <td> 456</td>
                                                     <td><label class="text-success">Đang tiến hành</label></td>
-                                                    <td class="action-icon">
-                                                        <a href="#!" class="m-r-15 text-muted" data-toggle="tooltip"
-                                                           data-placement="top" title="" data-original-title="Edit"><i
-                                                                class="icofont icofont-edit"></i></a>
-                                                        <a href="#!" class="text-muted" data-toggle="tooltip"
-                                                           data-placement="top" title=""
-                                                           data-original-title="Delete"><i
-                                                                class="icofont icofont-ui-delete"></i></a>
-                                                    </td>
                                                 </tr>
                                                 <tr>
                                                     <td class="pro-list-img">
@@ -354,15 +242,6 @@
                                                     </td>
                                                     <td> 456</td>
                                                     <td><label class="text-success">Đang tiến hành</label></td>
-                                                    <td class="action-icon">
-                                                        <a href="#!" class="m-r-15 text-muted" data-toggle="tooltip"
-                                                           data-placement="top" title="" data-original-title="Edit"><i
-                                                                class="icofont icofont-edit"></i></a>
-                                                        <a href="#!" class="text-muted" data-toggle="tooltip"
-                                                           data-placement="top" title=""
-                                                           data-original-title="Delete"><i
-                                                                class="icofont icofont-ui-delete"></i></a>
-                                                    </td>
                                                 </tr>
                                                 <tr>
                                                     <td class="pro-list-img">
@@ -374,15 +253,6 @@
                                                     </td>
                                                     <td> 456</td>
                                                     <td><label class="text-success">Đang tiến hành</label></td>
-                                                    <td class="action-icon">
-                                                        <a href="#!" class="m-r-15 text-muted" data-toggle="tooltip"
-                                                           data-placement="top" title="" data-original-title="Edit"><i
-                                                                class="icofont icofont-edit"></i></a>
-                                                        <a href="#!" class="text-muted" data-toggle="tooltip"
-                                                           data-placement="top" title=""
-                                                           data-original-title="Delete"><i
-                                                                class="icofont icofont-ui-delete"></i></a>
-                                                    </td>
                                                 </tr>
                                                 <tr>
                                                     <td class="pro-list-img">
@@ -394,15 +264,6 @@
                                                     </td>
                                                     <td> 456</td>
                                                     <td><label class="text-success">Đang tiến hành</label></td>
-                                                    <td class="action-icon">
-                                                        <a href="#!" class="m-r-15 text-muted" data-toggle="tooltip"
-                                                           data-placement="top" title="" data-original-title="Edit"><i
-                                                                class="icofont icofont-edit"></i></a>
-                                                        <a href="#!" class="text-muted" data-toggle="tooltip"
-                                                           data-placement="top" title=""
-                                                           data-original-title="Delete"><i
-                                                                class="icofont icofont-ui-delete"></i></a>
-                                                    </td>
                                                 </tr>
                                                 <tr>
                                                     <td class="pro-list-img">
@@ -414,15 +275,6 @@
                                                     </td>
                                                     <td> 456</td>
                                                     <td><label class="text-success">Đang tiến hành</label></td>
-                                                    <td class="action-icon">
-                                                        <a href="#!" class="m-r-15 text-muted" data-toggle="tooltip"
-                                                           data-placement="top" title="" data-original-title="Edit"><i
-                                                                class="icofont icofont-edit"></i></a>
-                                                        <a href="#!" class="text-muted" data-toggle="tooltip"
-                                                           data-placement="top" title=""
-                                                           data-original-title="Delete"><i
-                                                                class="icofont icofont-ui-delete"></i></a>
-                                                    </td>
                                                 </tr>
                                                 </tbody>
                                             </table>
@@ -435,100 +287,6 @@
                 </div>
             </div>
         </div>
-        <!-- Add Comic Start Model -->
-        <form class="md-float-material" action="index.html">
-          <div class="md-modal md-effect-13 add-comic" id="modal-13">
-              <div class="md-content">
-                  <h3 class="f-26 text-center">Add Comic</h3>
-                  <div class="card-block">
-                    <div class="row">
-                      <div class="col-md-6">
-                        <div class="md-group-add-on">
-                                        <span class="md-add-on-file">
-                                            <button class="btn btn-success waves-effect waves-light">File</button>
-                                        </span>
-                            <div class="md-input-file">
-                                <input type="file" class=""/>
-                                <input type="text" class="md-form-control md-form-file">
-                                <label class="md-label-file">Upload Hình Đại Diện</label>
-                            </div>
-                        </div>
-                        <div class="md-group-add-on">
-                            <span class="md-add-on">
-                                <i class="icofont icofont-read-book"></i>
-                             </span>
-                            <div class="md-input-wrapper">
-                                <input type="text" class="md-form-control"/>
-                                <label>Tên Truyện</label>
-                            </div>
-                        </div>
-                        <div class="md-group-add-on">
-                            <span class="md-add-on">
-                                <i class="icofont icofont-pen-nib"></i>
-                             </span>
-                            <div class="md-input-wrapper">
-                                <input type="text" class="md-form-control"/>
-                                <label>Tên Tác Giả</label>
-                            </div>
-                        </div>
-                        <div class="md-group-add-on">
-                            <span class="md-add-on">
-                                <i class="icofont icofont-brand-opensuse"></i>
-                             </span>
-                            <div class="md-input-wrapper">
-                                <input type="text" class="md-form-control"/>
-                                <label>Tên Dịch Giả</label>
-                            </div>
-                        </div>
-                      </div>
-                      <div class="col-md-6">
-                        <div class="md-input-wrapper">
-                          <input type="text" class="md-form-control" />
-                          <label>Link Hình Đại Diện</label>
-                        </div>
-                      <div class="md-group-add-on">
-                        <span class="md-add-on">
-                          <i class="icofont icofont-opposite"></i>
-                        </span>
-                        <div class="md-input-wrapper">
-                          <input type="text" class="md-form-control"/>
-                          <label>Tổng số chương</label>
-                        </div>
-                      </div>
-                      <div class="md-input-wrapper">
-                        <select class="md-form-control">
-                          <option>Đang tiến hành</option>
-                          <option>Đã Hoàn Thành</option>
-                          <option>Tạm Ngưng</option>
-                        </select>
-                      </div>
-                      <div class="md-input-wrapper">
-                        <select class="md-form-control">
-                          <option>Thể Loại</option>
-                          <option>Shounen</option>
-                          <option>Seinen</option>
-                        </select>
-                      </div>
-                    </div>
-                    </div>
-                      <div class="md-input-wrapper">
-                          <textarea class="md-form-control" cols="2" rows="4"></textarea>
-                          <label class="label label-lg"> Mô tả </label>
-                      </div>
-                      <div class="text-center m-t-30">
-                          <button type="button" class="btn btn-primary waves-effect m-r-20 f-w-600 d-inline-block">Save
-                          </button>
-                          <button type="button"
-                                  class="btn btn-primary waves-effect m-r-20 f-w-600 md-close d-inline-block">Close
-                          </button>
-                      </div>
-                  </div>
-              </div>
-          </div>
-        </form>
-        <!-- end of form -->
-        <!-- Add Comic Ends Model-->
-
         @include('layouts.footer-center')
         <!-- Container-fluid ends -->
     </div>
@@ -609,8 +367,8 @@
 <script src="../bower_components/datatables.net-bs4/js/dataTables.bootstrap4.min.js"></script>
 <script src="../bower_components/datatables.net-responsive/js/dataTables.responsive.min.js"></script>
 <script src="../bower_components/datatables.net-responsive-bs4/js/responsive.bootstrap4.min.js"></script>
-
 <!-- Model animation js -->
+
 <script type="text/javascript" src="assets/plugins/ModalWindowEffects/js/modalEffects.js"></script>
 <!-- echart js -->
 <script type="text/javascript" src="assets/plugins/charts/echarts/js/echarts-all.js"></script>

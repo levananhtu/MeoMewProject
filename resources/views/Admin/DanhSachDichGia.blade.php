@@ -73,9 +73,6 @@
             <!-- Header end -->
 
             <div class="row">
-              <div class="col-cm-3">
-
-              </div>
                 <div class="col-sm-12">
                     <div class="card">
                         <div class="data_table_main">
@@ -158,6 +155,201 @@
                             </div>
                         </div>
                     </div>
+                </div>
+                <div class="col-md-12">
+
+                  <div class="card-block md-modal">
+                    <div class="add-translator"  id="add-translator">
+                      <div class="row">
+                        <div class="col-lg-12">
+                          <div class="general-info">
+                            <div class="row">
+                              <div class="col-lg-6">
+                                <table class="table b-none">
+                                  <tbody>
+                                    <tr>
+                                      <td>
+                                        <div class="md-group-add-on">
+                                          <span class="md-add-on">
+                                            <i class="icofont icofont-ui-user"></i>
+                                          </span>
+                                          <div class="md-input-wrapper">
+                                            <input type="text" class="md-form-control">
+                                            <label>Tên Dịch Giả</label>
+                                          </div>
+                                        </div>
+                                      </td>
+
+                                    </tr>
+                                    <tr>
+                                      <td>
+
+                                        <div class="form-radio">
+                                          <form>
+                                            <div class="md-group-add-on">
+                                              <span class="md-add-on">
+                                                <i class="icofont icofont-group-students"></i>
+                                              </span>
+                                              <div class="radio radiofill radio-inline">
+                                                <label>
+                                                  <input type="radio" name="radio"><i class="helper"></i> Nam
+                                                </label>
+                                              </div>
+                                              <div class="radio radiofill radio-inline">
+                                                <label>
+                                                  <input type="radio" name="radio"><i class="helper"></i> Nữ
+                                                </label>
+                                              </div>
+                                              <div class="radio radiofill radio-inline">
+                                                <label>
+                                                  <input type="radio" name="radio" checked=""><i class="helper"></i> Nhóm Dịch
+                                                </label>
+                                              </div>
+                                            </div>
+                                          </form>
+                                        </div>
+                                      </td>
+
+                                    </tr>
+                                    <tr>
+                                      <td>
+                                        <div class="md-group-add-on">
+                                          <span class="md-add-on">
+                                            <i class="icofont icofont-ui-calendar"></i>
+                                          </span>
+                                          <div class="md-input-wrapper">
+                                            <input type="text" id="date" class="md-form-control">
+                                            <label>Ngày thành lập</label>
+                                          </div>
+                                        </div>
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td>
+                                        <div class="md-group-add-on">
+                                          <span class="md-add-on">
+                                            <i class="icofont icofont-heart-beat"></i>
+                                          </span>
+                                          <div class="md-input-wrapper">
+                                            <select class="md-form-control">
+                                              <option>Tình trạng nhóm dịch</option>
+                                              <option>Đang hoạt động</option>
+                                              <option>Ngưng hoạt động</option>
+                                            </select>
+                                          </div>
+                                        </div>
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td>
+                                        <div class="md-group-add-on">
+                                          <span class="md-add-on">
+                                            <i class="icofont icofont-id-card"></i>
+                                          </span>
+                                          <div class="md-input-wrapper">
+                                            <textarea class="md-form-control" cols="2" rows="4"></textarea>
+                                            <label>Mô tả</label>
+
+                                          </div>
+                                        </div>
+                                      </td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </div>
+                              <!-- end of table col-lg-6 -->
+
+                              <div class="col-lg-6">
+                                <table class="table  b-none">
+                                  <tbody>
+                                    <tr>
+                                      <td>
+                                        <div class="md-group-add-on">
+                                          <span class="md-add-on">
+                                            <i class="icofont icofont-email"></i>
+                                          </span>
+                                          <div class="md-input-wrapper">
+                                            <input type="email" class="md-form-control">
+                                            <label>Email</label>
+                                          </div>
+                                        </div>
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td>
+                                        <div class="md-group-add-on">
+                                          <span class="md-add-on">
+                                            <i class="icofont icofont-social-facebook"></i>
+                                          </span>
+                                          <div class="md-input-wrapper">
+                                            <input type="email" class="md-form-control">
+                                            <label>Facebook Id</label>
+                                          </div>
+                                        </div>
+                                      </td>
+
+                                    </tr>
+                                    <tr>
+                                      <td>
+                                        <div class="md-group-add-on">
+                                          <span class="md-add-on">
+                                            <i class="icofont icofont-social-twitter"></i>
+                                          </span>
+                                          <div class="md-input-wrapper">
+                                            <input type="email" class="md-form-control">
+                                            <label>Twitter Id</label>
+                                          </div>
+                                        </div>
+                                      </td>
+
+                                    </tr>
+                                    <tr>
+                                      <td>
+                                        <div class="md-group-add-on">
+                                          <span class="md-add-on">
+                                            <i class="icofont icofont-social-skype"></i>
+                                          </span>
+                                          <div class="md-input-wrapper">
+                                            <input type="email" class="md-form-control">
+                                            <label>Skype Id</label>
+                                          </div>
+                                        </div>
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td>
+                                        <div class="md-group-add-on">
+                                          <span class="md-add-on">
+                                            <i class="icofont icofont-web"></i>
+                                          </span>
+                                          <div class="md-input-wrapper">
+                                            <input type="text" class="md-form-control">
+                                            <label>Website</label>
+                                          </div>
+                                        </div>
+                                      </td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+
+                              </div>
+
+                              <!-- end of table col-lg-6 -->
+                            </div>
+                            <!-- end of row -->
+                            <div class="text-center">
+                              <a href="#!" class="btn btn-primary waves-effect waves-light m-r-20">Save</a>
+                              <a id="edit-cancel" class="btn btn-default waves-effect">Cancel</a>
+                            </div>
+                          </div>
+                          <!-- end of edit info -->
+                        </div>
+                        <!-- end of col-lg-12 -->
+                      </div>
+                      <!-- end of row -->
+
+                    </div>
+                  </div>
                 </div>
             </div>
         </div>
@@ -242,5 +434,12 @@
 <script type="text/javascript" src="assets/pages/elements.js"></script>
 <script src="assets/js/menu.js"></script>
 
+<script>
+  $(document).ready(function(){
+    $(".md-trigger").on("click", function(){
+      $(".md-modal").show();
+    });
+  });
+</script>
 </body>
 </html>

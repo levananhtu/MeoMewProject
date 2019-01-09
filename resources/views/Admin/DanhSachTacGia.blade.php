@@ -58,11 +58,11 @@
             <div class="row">
                 <div class="col-sm-12 p-0">
                     <div class="main-header">
-                        <h4>Danh Sách Dịch Giả</h4>
+                        <h4>Danh Sách Tác Giả</h4>
                         <ol class="breadcrumb breadcrumb-title breadcrumb-arrow">
                             <li class="breadcrumb-item"><a href="index.html"><i class="icofont icofont-home"></i></a>
                             </li>
-                            <li class="breadcrumb-item"><a href="#">Dịch Giả</a>
+                            <li class="breadcrumb-item"><a href="#">Tác Giả</a>
                             </li>
                             <li class="breadcrumb-item"><a href="foo-tables.html">Danh Sách</a>
                             </li>
@@ -84,14 +84,14 @@
                                 <button type="button" class="btn btn-primary waves-effect waves-light f-right md-trigger"
                                         data-modal="modal-13"><i class="icofont icofont-plus m-r-5"></i> Thêm
                                 </button>
-                                <p class="m-t-5">điền tên dịch giả trong ô Search để lọc từ danh sách.</p>
-                                <p class="m-t-5">Click vào tên tác giả để đến trang thông tin dịch giả.</p>
+                                <p class="m-t-5">điền tên tác giả trong ô Search để lọc từ danh sách.</p>
+                                <p class="m-t-5">Click vào tên tác giả để đến trang thông tin tác giả.</p>
                             </div>
                             <div class="card-block">
                                 <table id="demo-foo-filtering" class="table table-hover">
                                     <thead>
                                     <tr>
-                                        <th data-breakpoints="xs">Tên Dịch Giả</th>
+                                        <th data-breakpoints="xs">Tên Tác Giả</th>
                                     </tr>
                                     </thead>
 

@@ -16,11 +16,11 @@
 // });
 
 Route::get('/', function () {
-    return view('pages.TrangChu');
+    return view('Admin.TrangChu');
 });
 
 Route::get('thu', function(){
-  return view('Admin.ThemUser');
+  return view('pages.DichGia');
 });
 
 Route::get('thu2', function(){
@@ -46,7 +46,7 @@ Route::get('user/idUser', function(){
 
 // Page Truyen
 Route::get('truyen/danhsach', function(){
-  return view('pages.DanhSachTruyen');
+  return view('Admin.DanhSachTruyen');
 }) -> name('DanhSachTruyen');
 
 Route::get('truyen/idTruyen', function(){
@@ -54,12 +54,12 @@ Route::get('truyen/idTruyen', function(){
 }) -> name('Truyen');
 
 Route::get('truyen/idTruyen/idChuong', function(){
-  return view('pages.TrangTruyen');
+  return view('Admin.TrangTruyen');
 }) -> name('TrangTruyen');
 
 // Page Dich Gia
 Route::get('dichgia/danhsach', function(){
-  return view('pages.DanhSachDichGia');
+  return view('Admin.DanhSachDichGia');
 }) -> name('DanhSachDichGia');
 
 Route::get('dichgia/idDichGia', function(){
@@ -68,18 +68,18 @@ Route::get('dichgia/idDichGia', function(){
 
 //Page Tac Gia
 Route::get('tacgia/danhsach', function(){
-  return view('pages.DanhSachTacGia');
+  return view('Admin.DanhSachTacGia');
 }) -> name('DanhSachTacGia');
 
 Route::get('tacgia/idTacGia', function(){
-  return view('pages.TacGia');
+  return view('Admin.TacGia');
 }) -> name('TacGia');
 
 //Page The Loai
 Route::get('theloai/danhsach', function(){
-  return view('pages.DanhSachTheLoai');
+  return view('Admin.DanhSachTheLoai');
 }) -> name('DanhSachTheLoai');
 
 Route::get('theloai/idTheLoai', function(){
-  return view('pages.TheLoai');
+  return view('Admin.TheLoai');
 }) -> name('TheLoai');

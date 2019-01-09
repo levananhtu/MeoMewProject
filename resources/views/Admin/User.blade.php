@@ -181,15 +181,11 @@
             <div class="tab-header">
               <ul class="nav nav-tabs md-tabs tab-timeline" role="tablist">
                 <li class="nav-item">
-                  <a class="nav-link" data-toggle="tab" href="#personal" role="tab">Thông Tin</a>
+                  <a class="nav-link active" data-toggle="tab" href="#personal" role="tab">Thông Tin</a>
                   <div class="slide"></div>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" data-toggle="tab" href="#project" role="tab">Truyện Yêu Thích</a>
-                  <div class="slide"></div>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active" data-toggle="tab" href="#edit-info" role="tab">Sửa thông tin</a>
                   <div class="slide"></div>
                 </li>
               </ul>
@@ -197,14 +193,14 @@
             <!-- end of tab-header -->
 
             <div class="tab-content">
-              <div class="tab-pane" id="personal" role="tabpanel">
+              <dic class="tab-pane active" id="personal" role="tabpanel">
                 <div class="card">
                   <div class="card-header"><h5 class="card-header-text">About Me</h5>
                     <button id="edit-btn" type="button" class="btn btn-primary waves-effect waves-light f-right" >
                       <i  class="icofont icofont-edit"></i>
                     </button>
                   </div>
-                  <div class="card-block">
+                  <din class="card-block">
                     <div class="view-info">
                       <div class="row">
                         <div class="col-lg-12">
@@ -275,7 +271,198 @@
                       <!-- end of row -->
                     </div>
                     <!-- end of view-info -->
-                  </div>
+                    <dic class="edit-info">
+                      <div class="row">
+                        <div class="col-lg-12">
+                          <div class="general-info">
+                            <div class="row">
+                              <div class="col-lg-6">
+                                <table class="table b-none">
+                                  <tbody>
+                                    <tr>
+                                      <td>
+                                        <div class="md-group-add-on">
+                                          <span class="md-add-on">
+                                            <i class="icofont icofont-ui-user"></i>
+                                          </span>
+                                          <div class="md-input-wrapper">
+                                            <input type="text" class="md-form-control">
+                                            <label>Tên Dịch Giả</label>
+                                          </div>
+                                        </div>
+                                      </td>
+
+                                    </tr>
+                                    <tr>
+                                      <td>
+
+                                        <div class="form-radio">
+                                          <form>
+                                            <div class="md-group-add-on">
+                                              <span class="md-add-on">
+                                                <i class="icofont icofont-group-students"></i>
+                                              </span>
+                                              <div class="radio radiofill radio-inline">
+                                                <label>
+                                                  <input type="radio" name="radio"><i class="helper"></i> Nam
+                                                </label>
+                                              </div>
+                                              <div class="radio radiofill radio-inline">
+                                                <label>
+                                                  <input type="radio" name="radio"><i class="helper"></i> Nữ
+                                                </label>
+                                              </div>
+                                              <div class="radio radiofill radio-inline">
+                                                <label>
+                                                  <input type="radio" name="radio" checked=""><i class="helper"></i> Nhóm Dịch
+                                                </label>
+                                              </div>
+                                            </div>
+                                          </form>
+                                        </div>
+                                      </td>
+
+                                    </tr>
+                                    <tr>
+                                      <td>
+                                        <div class="md-group-add-on">
+                                          <span class="md-add-on">
+                                            <i class="icofont icofont-ui-calendar"></i>
+                                          </span>
+                                          <div class="md-input-wrapper">
+                                            <input type="text" id="date" class="md-form-control">
+                                            <label>Ngày thành lập</label>
+                                          </div>
+                                        </div>
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td>
+                                        <div class="md-group-add-on">
+                                          <span class="md-add-on">
+                                            <i class="icofont icofont-heart-beat"></i>
+                                          </span>
+                                          <div class="md-input-wrapper">
+                                            <select class="md-form-control">
+                                              <option>Tình trạng nhóm dịch</option>
+                                              <option>Đang hoạt động</option>
+                                              <option>Ngưng hoạt động</option>
+                                            </select>
+                                          </div>
+                                        </div>
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td>
+                                        <div class="md-group-add-on">
+                                          <span class="md-add-on">
+                                            <i class="icofont icofont-id-card"></i>
+                                          </span>
+                                          <div class="md-input-wrapper">
+                                            <textarea class="md-form-control" cols="2" rows="4"></textarea>
+                                            <label>Mô tả</label>
+
+                                          </div>
+                                        </div>
+                                      </td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </div>
+                              <!-- end of table col-lg-6 -->
+
+                              <div class="col-lg-6">
+                                <table class="table  b-none">
+                                  <tbody>
+                                    <tr>
+                                      <td>
+                                        <div class="md-group-add-on">
+                                          <span class="md-add-on">
+                                            <i class="icofont icofont-email"></i>
+                                          </span>
+                                          <div class="md-input-wrapper">
+                                            <input type="email" class="md-form-control">
+                                            <label>Email</label>
+                                          </div>
+                                        </div>
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td>
+                                        <div class="md-group-add-on">
+                                          <span class="md-add-on">
+                                            <i class="icofont icofont-social-facebook"></i>
+                                          </span>
+                                          <div class="md-input-wrapper">
+                                            <input type="email" class="md-form-control">
+                                            <label>Facebook Id</label>
+                                          </div>
+                                        </div>
+                                      </td>
+
+                                    </tr>
+                                    <tr>
+                                      <td>
+                                        <div class="md-group-add-on">
+                                          <span class="md-add-on">
+                                            <i class="icofont icofont-social-twitter"></i>
+                                          </span>
+                                          <div class="md-input-wrapper">
+                                            <input type="email" class="md-form-control">
+                                            <label>Twitter Id</label>
+                                          </div>
+                                        </div>
+                                      </td>
+
+                                    </tr>
+                                    <tr>
+                                      <td>
+                                        <div class="md-group-add-on">
+                                          <span class="md-add-on">
+                                            <i class="icofont icofont-social-skype"></i>
+                                          </span>
+                                          <div class="md-input-wrapper">
+                                            <input type="email" class="md-form-control">
+                                            <label>Skype Id</label>
+                                          </div>
+                                        </div>
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td>
+                                        <div class="md-group-add-on">
+                                          <span class="md-add-on">
+                                            <i class="icofont icofont-web"></i>
+                                          </span>
+                                          <div class="md-input-wrapper">
+                                            <input type="text" class="md-form-control">
+                                            <label>Website</label>
+                                          </div>
+                                        </div>
+                                      </td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+
+                              </div>
+
+                              <!-- end of table col-lg-6 -->
+                            </div>
+                            <!-- end of row -->
+                            <div class="text-center">
+                              <a href="#!" class="btn btn-primary waves-effect waves-light m-r-20">Save</a>
+                              <a id="edit-cancel" class="btn btn-default waves-effect">Cancel</a>
+                            </div>
+                          </div>
+                          <!-- end of edit info -->
+                        </div>
+                        <!-- end of col-lg-12 -->
+                      </div>
+                      <!-- end of row -->
+
+                    </dic>
+                    <!-- end of view-info -->
+                  </din>
                   <!-- end of card-block -->
                 </div>
                 <!-- end of card-->
@@ -319,7 +506,7 @@
                 </div>
                 <!-- end of row of Description  -->
 
-              </div>
+              </dic>
               <!-- end of tab-pane -->
               <!-- end of about us tab-pane -->
 
@@ -560,198 +747,6 @@
                 </div>
                 <!-- end of project pane -->
 
-                <!-- start tab-pane of edit info -->
-                <div class="tab-pane active" id="edit-info" role="tabpanel">
-                  <div class="card">
-                    <div class="card-header">
-                      <h5 class="card-header-text">Chỉnh Sửa</h5>
-                    </div>
-                    <!-- end of card-header  -->
-                    <div class="card-block">
-                      <div class="edit-info">
-                        <div class="row">
-                          <div class="col-lg-12">
-                            <div class="edit-info">
-                              <div class="row">
-                                <div class="col-lg-6">
-                                  <table class="table">
-                                    <tbody>
-                                      <tr>
-                                        <td>
-                                          <div class="md-group-add-on">
-                                            <span class="md-add-on">
-                                              <i class="icofont icofont-ui-user"></i>
-                                            </span>
-                                            <div class="md-input-wrapper">
-                                              <input type="text" class="md-form-control">
-                                              <label>Tên Truyện</label>
-                                            </div>
-                                          </div>
-                                        </td>
-                                      </tr>
-
-                                      <tr>
-                                        <td>
-                                          <div class="form-radio">
-                                            <form>
-                                              <div class="md-group-add-on">
-                                                <span class="md-add-on">
-                                                  <i class="icofont icofont-group-students"></i>
-                                                </span>
-                                                <div class="radio radiofill radio-inline">
-                                                  <label>
-                                                    <input type="radio" name="radio" checked="checked"><i class="helper"></i> None
-                                                  </label>
-                                                </div>
-                                                <div class="radio radiofill radio-inline">
-                                                  <label>
-                                                    <input type="radio" name="radio"><i class="helper"></i> Mới
-                                                  </label>
-                                                </div>
-                                                <div class="radio radiofill radio-inline">
-                                                  <label>
-                                                    <input type="radio" name="radio"><i class="helper"></i> Nổi Bật
-                                                  </label>
-                                                </div>
-                                              </div>
-                                            </form>
-                                          </div>
-                                        </td>
-                                      </tr>
-
-                                      <tr>
-                                        <td>
-                                          <div class="md-group-add-on">
-                                            <span class="md-add-on">
-                                              <i class="icofont icofont-ui-calendar"></i>
-                                            </span>
-                                            <div class="md-input-wrapper">
-                                              <div class="">
-                                                <input type="text" id="date" class="md-form-control">
-                                              </div>
-                                              <label>Ngày Bắt Đầu</label>
-                                            </div>
-                                          </div>
-                                        </td>
-                                      </tr>
-
-                                      <tr>
-                                        <td>
-                                          <div class="md-group-add-on">
-                                            <span class="md-add-on">
-                                              <i class="icofont icofont-users-alt-4"></i>
-                                            </span>
-                                            <div class="md-input-wrapper">
-                                              <select class="md-form-control">
-                                                <option>Đang tiến hành</option>
-                                                <option>Đã hoàn thành</option>
-                                                <option>Tạm ngưng</option>
-                                              </select>
-                                            </div>
-                                          </div>
-                                        </td>
-                                      </tr>
-
-                                      <tr>
-                                        <td>
-                                          <div class="md-group-add-on">
-                                            <span class="md-add-on">
-                                              <i class="icofont icofont-read-book"></i>
-                                            </span>
-                                            <div class="md-input-wrapper">
-                                              <textarea class="md-form-control" cols="2" rows="4"></textarea>
-                                              <label>Nội Dung</label>
-                                            </div>
-                                          </div>
-                                        </td>
-                                      </tr>
-                                    </tbody>
-                                  </table>
-                                </div>
-                                <!-- end of table col-lg-6 -->
-                                <div class="col-lg-6">
-                                  <table class="table  b-none">
-                                    <tbody>
-                                      <tr>
-                                        <td>
-                                          <div class="md-group-add-on">
-                                            <span class="md-add-on">
-                                              <i class="icofont icofont-sea-plane"></i>
-                                            </span>
-                                            <div class="md-input-wrapper">
-                                              <input type="number" class="md-form-control">
-                                              <label>Số chương (Đã dịch)</label>
-                                            </div>
-                                          </div>
-                                        </td>
-                                      </tr>
-
-                                      <tr>
-                                        <td>
-                                          <div class="md-group-add-on">
-                                            <span class="md-add-on">
-                                              <i class="icofont icofont-island-alt"></i>
-                                            </span>
-                                            <div class="md-input-wrapper">
-                                              <input type="number" class="md-form-control">
-                                              <label>Tổng Số Chương</label>
-                                            </div>
-                                          </div>
-                                        </td>
-                                      </tr>
-
-                                      <tr>
-                                        <td>
-                                          <div class="md-group-add-on">
-                                            <span class="md-add-on">
-                                              <i class="icofont icofont-ui-calendar"></i>
-                                            </span>
-                                            <div class="md-input-wrapper">
-                                              <input type="text" id="date" class="md-form-control">
-                                              <label>Ngày Kết Thúc</label>
-                                            </div>
-                                          </div>
-                                        </td>
-
-                                      </tr>
-
-                                      <tr>
-                                        <td>
-                                          <div class="md-group-add-on">
-                                            <span class="md-add-on">
-                                              <i class="icofont icofont-ui-user"></i>
-                                            </span>
-                                            <div class="md-input-wrapper">
-                                              <input type="text" class="md-form-control">
-                                              <label>Tên Tác Giả</label>
-                                            </div>
-                                          </div>
-                                        </td>
-                                      </tr>
-                                    </tbody>
-                                  </table>
-                                </div>
-                                <!-- end of table col-lg-6 -->
-                              </div>
-                              <!-- end of row -->
-                              <div class="text-center">
-                                <a href="#!" class="btn btn-primary waves-effect waves-light m-r-20">Save</a>
-                                <a href="#!" id="edit-cancel" class="btn btn-default waves-effect">Cancel</a>
-                              </div>
-                            </div>
-                            <!-- end of edit info -->
-                          </div>
-                          <!-- end of col-lg-12 -->
-                        </div>
-                        <!-- end of row -->
-                      </div>
-
-                    </div>
-                    <!-- end of card block -->
-                  </div>
-                  <!-- end of card-main -->
-                </div>
-                <!-- end of edit-info pane -->
 
               </div>
               <!-- end of edit info tab-pane  -->
