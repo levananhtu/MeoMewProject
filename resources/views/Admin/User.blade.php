@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Web Comic - MeoMew Team</title>
+  <title>Web Comic - Tên Người Dùng</title>
   <base href="{{asset('')}}">
   <!-- HTML5 Shim and Respond.js IE9 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -87,7 +87,7 @@
             </div>
           </div>
           <div class="card-block">
-            <h4 class="f-18 f-normal m-b-10 txt-primary">MeoMew Team</h4>
+            <h4 class="f-18 f-normal m-b-10 txt-primary">Tên Người Dùng</h4>
             <h5 class="f-14">Về user</h5>
             <p class="m-b-15">Lorem ipsum dolor sit amet, consectet
               ur adipisicing elit</p>
@@ -118,60 +118,15 @@
                   </li>
                 </ul>
                 <div class="faq-profile-btn">
-                  <button type="button" class="btn btn-success waves-effect waves-light">Chỉnh Sửa
+                  <button type="button" class="btn btn-success waves-effect waves-light">Message
                   </button>
-                  <button type="button" class="btn btn-primary waves-effect waves-light">Lưu
+                  <button type="button" class="btn btn-primary waves-effect waves-light">Follow
                   </button>
                 </div>
 
               </div>
             </div>
             <!-- end of card-block -->
-            <div class="card">
-              <div class="card-header"><h5 class="card-header-text">Technical Skill</h5></div>
-              <div class="card-block">
-                <div class="technical-skill">
-                  <h6>Photoshop</h6>
-                  <div class="faq-progress">
-                    <div class="progress">
-                      <span class="faq-text1"></span>
-                      <div class="faq-bar1"></div>
-                    </div>
-                  </div>
-                  <h6>Illustrator</h6>
-                  <div class="faq-progress">
-                    <div class="progress">
-                      <span class="faq-text2"></span>
-                      <div class="faq-bar2"></div>
-                    </div>
-                  </div>
-                  <h6>PHP</h6>
-                  <div class="faq-progress">
-                    <div class="progress">
-                      <span class="faq-text3"></span>
-                      <div class="faq-bar3"></div>
-                    </div>
-                  </div>
-                  <h6>Javascript</h6>
-                  <div class="faq-progress">
-                    <div class="progress">
-                      <span class="faq-text4"></span>
-                      <div class="faq-bar4"></div>
-                    </div>
-                  </div>
-                  <h6>Communication</h6>
-                  <div class="faq-progress">
-                    <div class="progress">
-                      <span class="faq-text5"></span>
-                      <div class="faq-bar5"></div>
-                    </div>
-                  </div>
-                </div>
-                <!-- end of technical skill -->
-              </div>
-              <!-- end of card-block -->
-            </div>
-            <!-- end of card -->
           </div>
           <!-- end of col-lg-3 -->
 
@@ -287,7 +242,7 @@
                                           </span>
                                           <div class="md-input-wrapper">
                                             <input type="text" class="md-form-control">
-                                            <label>Tên Dịch Giả</label>
+                                            <label>Tên Người Dùng</label>
                                           </div>
                                         </div>
                                       </td>
@@ -314,7 +269,7 @@
                                               </div>
                                               <div class="radio radiofill radio-inline">
                                                 <label>
-                                                  <input type="radio" name="radio" checked=""><i class="helper"></i> Nhóm Dịch
+                                                  <input type="radio" name="radio" checked=""><i class="helper"></i> Khác
                                                 </label>
                                               </div>
                                             </div>
@@ -323,57 +278,6 @@
                                       </td>
 
                                     </tr>
-                                    <tr>
-                                      <td>
-                                        <div class="md-group-add-on">
-                                          <span class="md-add-on">
-                                            <i class="icofont icofont-ui-calendar"></i>
-                                          </span>
-                                          <div class="md-input-wrapper">
-                                            <input type="text" id="date" class="md-form-control">
-                                            <label>Ngày thành lập</label>
-                                          </div>
-                                        </div>
-                                      </td>
-                                    </tr>
-                                    <tr>
-                                      <td>
-                                        <div class="md-group-add-on">
-                                          <span class="md-add-on">
-                                            <i class="icofont icofont-heart-beat"></i>
-                                          </span>
-                                          <div class="md-input-wrapper">
-                                            <select class="md-form-control">
-                                              <option>Tình trạng nhóm dịch</option>
-                                              <option>Đang hoạt động</option>
-                                              <option>Ngưng hoạt động</option>
-                                            </select>
-                                          </div>
-                                        </div>
-                                      </td>
-                                    </tr>
-                                    <tr>
-                                      <td>
-                                        <div class="md-group-add-on">
-                                          <span class="md-add-on">
-                                            <i class="icofont icofont-id-card"></i>
-                                          </span>
-                                          <div class="md-input-wrapper">
-                                            <textarea class="md-form-control" cols="2" rows="4"></textarea>
-                                            <label>Mô tả</label>
-
-                                          </div>
-                                        </div>
-                                      </td>
-                                    </tr>
-                                  </tbody>
-                                </table>
-                              </div>
-                              <!-- end of table col-lg-6 -->
-
-                              <div class="col-lg-6">
-                                <table class="table  b-none">
-                                  <tbody>
                                     <tr>
                                       <td>
                                         <div class="md-group-add-on">
@@ -387,6 +291,27 @@
                                         </div>
                                       </td>
                                     </tr>
+                                    <tr>
+                                      <td>
+                                        <div class="md-group-add-on">
+                                          <span class="md-add-on">
+                                            <i class="icofont icofont-id-card"></i>
+                                          </span>
+                                          <div class="md-input-wrapper">
+                                            <textarea class="md-form-control" cols="2" rows="4"></textarea>
+                                            <label>Mô tả</label>
+                                          </div>
+                                        </div>
+                                      </td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </div>
+                              <!-- end of table col-lg-6 -->
+
+                              <div class="col-lg-6">
+                                <table class="table  b-none">
+                                  <tbody>
                                     <tr>
                                       <td>
                                         <div class="md-group-add-on">
@@ -473,31 +398,22 @@
                     <!-- Description card start -->
                     <div class="card">
                       <div class="card-header">
-                        <h5 class=" d-inline-block">Description</h5>
-                        <div class="card-header-right f-right">
-                          <button type="button" class="btn btn-primary waves-effect waves-light btn-sm m-1">
-                            Chỉnh sửa
-                          </button>
-                        </div>
+                        <h5 class=" d-inline-block">Mô Tả</h5>
                       </div>
                       <div class="card-block">
                         <div class="media p-t-10 m-b-20 ">
-                          <a class="mr-3" href="#">
-                            <img class="media-object m-r-10" src="assets/images/logo-blue.png" alt="Generic placeholder image">
-                          </a>
                           <div class="media-body">
                             <div class="row">
                               <div class="col-md-12">
                                 <div class="company-name">
-                                  <p>MeoMew Team</p>
-                                  <span class="text-muted">14 February, 2017</span>
+                                  <p>Tên Người Dùng</p>
                                 </div>
                               </div>
                             </div>
                           </div>
                         </div>
-                        <p>Across a Global footprint, we believe we’re at our best when you’re at yours. From our diverse workforce, our flexible working policies to our creative work spaces, we embrace a culture of learning and sharing to develop our next stage growth. It’s in our hearts to push forward, to create a better future, to never rest and find new ways that help people communicate.</p>
-                        <p>We are committed to developing the very best people by offering a flexible, motivating and inclusive workplace in which talent is truly recognised and rewarded. We respect, value and celebrate our people’s individual differences - we are not only multinational but multicultural too. That’s what we mean when we say Power to you.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Turpis tincidunt id aliquet risus feugiat. Nullam ac tortor vitae purus faucibus ornare suspendisse sed. Id nibh tortor id aliquet lectus proin nibh nisl. Platea dictumst quisque sagittis purus sit amet volutpat consequat mauris. Faucibus purus in massa tempor nec feugiat nisl. Fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate sapien. Netus et malesuada fames ac. Ultrices dui sapien eget mi proin sed libero enim. Venenatis urna cursus eget nunc scelerisque. Aliquam faucibus purus in massa tempor nec feugiat. Lorem mollis aliquam ut porttitor leo a diam sollicitudin. Cras adipiscing enim eu turpis egestas pretium aenean pharetra magna. Massa id neque aliquam vestibulum morbi blandit. Pharetra massa massa ultricies mi. Facilisi nullam vehicula ipsum a arcu cursus vitae congue mauris. Eget sit amet tellus cras adipiscing enim eu. Massa massa ultricies mi quis hendrerit dolor magna eget est. Fames ac turpis egestas sed tempus.
+                        </p>
                       </div>
                     </div>
                     <!-- Company profile card end -->
