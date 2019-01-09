@@ -1,10 +1,5 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: leviathan
- * Date: 1/9/2019
- * Time: 8:28 PM
- */
+
 
 namespace App\PrepareData;
 
