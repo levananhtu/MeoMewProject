@@ -52,7 +52,7 @@
 
         @include('layouts.PageHeader')
 
-        @include('layouts.AdminLeftSideNav')
+        @include('layouts.PagesLeftSideNav')
 
         <div class="content-wrapper">
           <!-- Container-fluid starts -->
@@ -62,7 +62,7 @@
               <div class="row">
                 <div class="col-sm-12 p-0">
                   <div class="main-header">
-                    <h4>Velvet Kiss</h4>
+                    <h4>Pokemon Special</h4>
                     <ol class="breadcrumb breadcrumb-title breadcrumb-arrow">
                       <li class="breadcrumb-item">
                         <a href="/">
@@ -71,7 +71,7 @@
                       </li>
                       <li class="breadcrumb-item"><a href="{{ URL::route('DanhSachTruyen') }}">Danh Sách</a>
                       </li>
-                      <li class="breadcrumb-item"><a href="{{ URL::route('TrangTruyen') }}">Velvet Kiss</a>
+                      <li class="breadcrumb-item"><a href="{{ URL::route('TrangTruyen') }}">Pokemon Special</a>
                       </li>
                     </ol>
                   </div>
@@ -119,8 +119,8 @@
                           </form>
                           <div id="animationSandbox">
                             <div class="text-center animation-image col-lg-10 m-auto">
-                              @for($i = 1;  $i <= 27; $i++)
-                              <img class="d-block img-fluid img-thumbnail" src="image/{{$i}}.png" alt="Third slide">
+                              @for($i = 1;  $i <= 19; $i++)
+                              <img class="d-block img-fluid img-thumbnail" src="image/{{$i}}.jpg" alt="Third slide">
                               @endfor
                             </div>
                           </div>

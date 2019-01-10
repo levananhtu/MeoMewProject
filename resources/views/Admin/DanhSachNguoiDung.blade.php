@@ -50,7 +50,7 @@
 
 </head>
 @include('layouts.AdminHeader')
-@include('layouts.leftSideNav3')
+@include('layouts.AdminLeftSideNav')
     <div class="content-wrapper">
         <!-- Container-fluid starts -->
         <div class="container-fluid">
@@ -62,9 +62,9 @@
                         <ol class="breadcrumb breadcrumb-title breadcrumb-arrow">
                             <li class="breadcrumb-item"><a href="index.html"><i class="icofont icofont-home"></i></a>
                             </li>
-                            <li class="breadcrumb-item"><a href="#">User</a>
+                            <li class="breadcrumb-item"><a href="">User</a>
                             </li>
-                            <li class="breadcrumb-item"><a href="foo-tables.html">Danh Sách</a>
+                            <li class="breadcrumb-item"><a href="">Danh Sách</a>
                             </li>
                         </ol>
                     </div>

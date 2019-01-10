@@ -60,11 +60,11 @@
                     <div class="main-header">
                         <h4>Danh Sách Dịch Giả</h4>
                         <ol class="breadcrumb breadcrumb-title breadcrumb-arrow">
-                            <li class="breadcrumb-item"><a href="index.html"><i class="icofont icofont-home"></i></a>
+                            <li class="breadcrumb-item"><a href="{{ URL::route('Home') }}"><i class="icofont icofont-home"></i></a>
                             </li>
-                            <li class="breadcrumb-item"><a href="#">Dịch Giả</a>
+                            <li class="breadcrumb-item">Dịch Giả
                             </li>
-                            <li class="breadcrumb-item"><a href="foo-tables.html">Danh Sách</a>
+                            <li class="breadcrumb-item"><a href="{{ URL::route('DanhSachDichGia') }}">Danh Sách</a>
                             </li>
                         </ol>
                     </div>

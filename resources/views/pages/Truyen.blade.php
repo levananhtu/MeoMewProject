@@ -56,7 +56,7 @@
 </head>
 @include('layouts.PageHeader')
 
-@include('layouts.AdminLeftSideNav')
+@include('layouts.PagesLeftSideNav')
     <div class="content-wrapper">
         <!-- Container-fluid starts -->
         <div class="container-fluid">
@@ -89,7 +89,7 @@
                                             <div class="col-lg-12">
                                                 <div id="big_banner">
                                                     <div class="port_big_img">
-                                                        <img class="img img-fluid" src="image/1.png" alt="Big_ Details">
+                                                        <img class="img img-fluid" src="image/2.jpg" alt="Big_ Details">
                                                     </div>
                                                 </div>
                                             </div>
@@ -103,7 +103,7 @@
                                                     <span class="f-right"><label class="badge badge-lg bg-primary">Nổi Bật</label></span>
                                                 </div>
                                                 <div class="col-lg-12">
-                                                    <h4 class="pro-desc">Houseki no Kuni</h4>
+                                                    <h4 class="pro-desc">Pokemon Special</h4>
                                                 </div>
                                                 <div class="col-lg-12">
                                                     <span class="txt-muted"> Tác giả : Shinkai Makoto </span>
@@ -123,7 +123,7 @@
                                                     <span class="txt-primary product-price"><i class="icofont icofont-woman-bird"></i>Rating:</span> <span class="txt-primary product-price">4.95</span>
                                                     <hr>
                                                     <p>
-                                                      Houseki no Kuni lấy bối cảnh một tương lai giả tưởng, nơi những thực thể sống mới mang tên Bảo Thạch ra đời. 28 Bảo thạch này phải chiến đấu chống lại Nguyệt nhân vì họ muốn biến những thực thể này thành vật trang trí. Chính vì vậy, mỗi Bảo thạch đều được ấn định một nhiệm vụ như đấu sĩ hay dược sĩ. PS: Chắc chắn Anime sẽ làm hết arc Winter tức là chap 20 nên nếu ai xem hết Anime có thể xem tiếp từ chap 20 Chú thích: 1, Về cơ bản Bảo thạch không có giới tính do không phải là người (mà là ngọc) tuy nhiên tác giả đã ghi là chọn cách xưng hô kiểu nam do không có kiểu xưng hô trung tính (nên đừng thấy lạ khi vài Bảo Thạch trông nữ tính nhưng lại xưng hô kiểu nam hay thắc mắc về giới tính) 2, Trí nhớ của Bảo thạch nằm trong mọi phần thân thể nên mất phần thân thể nào sẽ mất 1 phần ký ức nhưng không chết và chỉ cần tập hợp đủ ở mức độ nào đó là có thể tái sinh (chap 1, 2 manga/ anime) 3, Trong cơ thể bảo thạch có một loại vi sinh vật hấp thụ ánh sáng chuyển hóa năng lượng giúp bảo thạch di chuyển nên hầu như buổi tối bảo thạch không hoạt động vì không có đủ năng lượng (giống như cây cối vậy) (chap 1, 2 anime/manga)
+                                                      Pokemon Special lấy bối cảnh một tương lai giả tưởng, nơi những thực thể sống mới mang tên Bảo Thạch ra đời. 28 Bảo thạch này phải chiến đấu chống lại Nguyệt nhân vì họ muốn biến những thực thể này thành vật trang trí. Chính vì vậy, mỗi Bảo thạch đều được ấn định một nhiệm vụ như đấu sĩ hay dược sĩ. PS: Chắc chắn Anime sẽ làm hết arc Winter tức là chap 20 nên nếu ai xem hết Anime có thể xem tiếp từ chap 20 Chú thích: 1, Về cơ bản Bảo thạch không có giới tính do không phải là người (mà là ngọc) tuy nhiên tác giả đã ghi là chọn cách xưng hô kiểu nam do không có kiểu xưng hô trung tính (nên đừng thấy lạ khi vài Bảo Thạch trông nữ tính nhưng lại xưng hô kiểu nam hay thắc mắc về giới tính) 2, Trí nhớ của Bảo thạch nằm trong mọi phần thân thể nên mất phần thân thể nào sẽ mất 1 phần ký ức nhưng không chết và chỉ cần tập hợp đủ ở mức độ nào đó là có thể tái sinh (chap 1, 2 manga/ anime) 3, Trong cơ thể bảo thạch có một loại vi sinh vật hấp thụ ánh sáng chuyển hóa năng lượng giúp bảo thạch di chuyển nên hầu như buổi tối bảo thạch không hoạt động vì không có đủ năng lượng (giống như cây cối vậy) (chap 1, 2 anime/manga)
                                                     </p>
                                                     <hr>
                                                 </div>

@@ -74,7 +74,7 @@
 						</div>
 						<div class="row">
 							<div class="col-sm-12  forgot-phone text-center">
-								<a href="forgot-password.html" class="text-right f-w-600"> Quên mật khẩu?</a>
+								<a href="" class="text-right f-w-600"> Quên mật khẩu?</a>
 								</div>
 						</div>
             <br>
@@ -85,7 +85,7 @@
 						<!-- <div class="card-footer"> -->
 						<div class="col-sm-12  text-center">
 							<span class="text-muted">Không có tài khoản?</span>
-							<a href="register2.html" class="f-w-600 p-l-5">Tạo tài khoản</a>
+							<a href="{{ URL::route('DangKy') }}" class="f-w-600 p-l-5">Tạo tài khoản</a>
 						</div>
 
 						<!-- </div> -->

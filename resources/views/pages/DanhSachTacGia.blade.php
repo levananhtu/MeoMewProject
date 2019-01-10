@@ -50,7 +50,7 @@
 
 </head>
 @include('layouts.PageHeader')
-@include('layouts.AdminLeftSideNav')
+@include('layouts.PagesLeftSideNav')
     <div class="content-wrapper">
         <!-- Container-fluid starts -->
         <div class="container-fluid">

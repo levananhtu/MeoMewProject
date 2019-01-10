@@ -56,7 +56,7 @@
 </head>
 @include('layouts.AdminHeader')
 
-@include('layouts.leftSideNav3')
+@include('layouts.AdminLeftSideNav')
     <div class="content-wrapper">
         <!-- Container-fluid starts -->
         <div class="container-fluid">
@@ -89,7 +89,7 @@
                                             <div class="col-lg-12">
                                                 <div id="big_banner">
                                                     <div class="port_big_img">
-                                                        <img class="img img-fluid" src="image/1.png" alt="Big_ Details">
+                                                        <img class="img img-fluid" src="image/2.jpg" alt="Big_ Details">
                                                     </div>
                                                 </div>
                                             </div>
@@ -103,7 +103,7 @@
                                                     <span class="f-right"><label class="badge badge-lg bg-primary">Nổi Bật</label></span>
                                                 </div>
                                                 <div class="col-lg-12">
-                                                    <h4 class="pro-desc">Houseki no Kuni</h4>
+                                                    <h4 class="pro-desc">Pokemon Special</h4>
                                                 </div>
                                                 <div class="col-lg-12">
                                                     <span class="txt-muted"> Tác giả : Shinkai Makoto </span>

@@ -57,7 +57,7 @@
 </head>
 @include('layouts.AdminHeader')
 
-@include('layouts.leftSideNav3')
+@include('layouts.AdminLeftSideNav')
 
 <div class="content-wrapper">
   <!-- Container-fluid starts -->

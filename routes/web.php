@@ -17,10 +17,10 @@
 
 Route::get('/', function () {
     return view('Admin.TrangChu');
-});
+}) -> name('Home');
 
 Route::get('thu', function(){
-  return view('Admin.ThemUser');
+  return view('pages.DanhSachDichGia');
 });
 
 Route::get('thu2', function(){

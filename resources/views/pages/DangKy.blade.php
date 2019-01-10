@@ -90,7 +90,7 @@
 									<div class="row">
 										<div class=" text-center">
 											<span class="text-muted">Đã có tài khoản?</span>
-											<a href="login1.html" class="f-w-600 p-l-5"> Đăng nhập </a>
+											<a href="{{ URL::route('DangNhap') }}" class="f-w-600 p-l-5"> Đăng nhập </a>
 
 										</div>
 									</div>

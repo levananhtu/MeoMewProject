@@ -62,9 +62,9 @@
                         <ol class="breadcrumb breadcrumb-title breadcrumb-arrow">
                             <li class="breadcrumb-item"><a href="index.html"><i class="icofont icofont-home"></i></a>
                             </li>
-                            <li class="breadcrumb-item"><a href="#">Tác Giả</a>
+                            <li class="breadcrumb-item"><a href="">Tác Giả</a>
                             </li>
-                            <li class="breadcrumb-item"><a href="foo-tables.html">Danh Sách</a>
+                            <li class="breadcrumb-item"><a href="">Danh Sách</a>
                             </li>
                         </ol>
                     </div>

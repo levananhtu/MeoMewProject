@@ -52,7 +52,7 @@
 
         @include('layouts.AdminHeader')
 
-        @include('layouts.leftSideNav3')
+        @include('layouts.AdminLeftSideNav')
 
         <div class="content-wrapper">
           <!-- Container-fluid starts -->
@@ -119,8 +119,8 @@
                           </form>
                           <div id="animationSandbox">
                             <div class="text-center animation-image col-lg-10 m-auto">
-                              @for($i = 1;  $i <= 27; $i++)
-                              <img class="d-block img-fluid img-thumbnail" src="image/{{$i}}.png" alt="Third slide">
+                              @for($i = 1;  $i <= 19; $i++)
+                              <img class="d-block img-fluid img-thumbnail" src="image/{{$i}}.jpg" alt="Trang Truyen">
                               @endfor
                             </div>
                           </div>

@@ -74,7 +74,6 @@
           <li><a class="waves-effect waves-dark" href="{{ URL::route('DanhSachDichGia') }}"><i class="icon-arrow-right"></i><span>More... </span></a></li>
         </ul>
       </li>
-      <li><a class="waves-effect waves-dark" href="{{ URL::route('DanhSachNguoiDung') }}"><i class="icofont icofont-animal-monkey "></i><span>Danh Sách User</span></a></li>
     </ul>
   </section>
 </aside>
